@@ -1,0 +1,43 @@
+Individual writeup
+
+Instructions:
+  - Please write you answers in the space between the question and the dashed line below it.
+  - Feel free to add new lines in this space if you need to.
+  - Please do not remove the dashed line.
+  - This formatting makes it little easy for us to read your writeups.
+
+
+
+1) Questions about the homework:
+  1.1) What is your name and your partner's name?
+	My name is Sanjeev Janarthanan and I had no partner. 
+
+
+--------------------------------------------------------------
+  1.2) How was the homework? Did you enjoy it?
+	I thought part 2 of the homework was really cool. It was a good challenge to take new algorithms
+        and implement them in code. It was also cool to see your code with an actual search engine.
+        Part 1 was good practice with implementing data structures.
+
+--------------------------------------------------------------
+  1.3) Do you have any suggestions for improving the homework?
+	I think it would be helpful if you could give us more advice as to what to look out for when we're
+        writing testing files.
+
+--------------------------------------------------------------
+2) Questions about your partner (skip if you worked solo):
+  2.1) Which parts of the project did you work on, and which parts did your partner program? Did you try pair programming?
+
+
+
+
+
+--------------------------------------------------------------
+  2.2) How was your partnership? Do you feel you and your partner contributed equally to this homework?
+
+
+
+
+
+
+--------------------------------------------------------------

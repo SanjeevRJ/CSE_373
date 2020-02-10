@@ -1,0 +1,8 @@
+1.a) My name is Sanjeev Janarthanan and I worked alone.
+
+  b) I thought the project overall was pretty engaging and helped me learn more about linked lists and trees. I enjoyed having
+     to figure out the implementation for the DoubleLinkedList. I didn't enjoy coding the AST as much because I thought it was 
+     less engaging.
+ 
+  c) It would be helpful to add a note for how to access the children in the handleSimplify method of the ExpressionManipulators class.
+     I wasted a lot of time trying to figure this out.

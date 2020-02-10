@@ -1,0 +1,46 @@
+Individual writeup
+
+Instructions:
+  - Please write you answers in the space between the question and the dashed line below it.
+  - Feel free to add new lines in this space if you need to.
+  - Please do not remove the dashed line.
+  - This formatting makes it little easy for us to read your writeups.
+
+
+
+1) Questions about the homework:
+  1.1) What is your name and your partner's name?
+	My name is Sanjeev Janarthanan and I had no partner. 
+
+
+--------------------------------------------------------------
+  1.2) How was the homework? Did you enjoy it?
+	I thought it was cool to put what we learned about hashing to use. It was a good
+	challenge to figure out how to get the iterator working for the ChainedHashDictionary
+	and although it could be frustating at times it was still enjoyable.
+
+
+--------------------------------------------------------------
+  1.3) Do you have any suggestions for improving the homework?
+	I don't really get the point of implementing the ChainedHashSet. It didn't really teach
+	me much about sets and the implementation was so straight forward it didn't help with my
+	coding skills either.
+
+
+--------------------------------------------------------------
+2) Questions about your partner (skip if you worked solo):
+  2.1) Which parts of the homework did you work on, and which parts did your partner program?
+
+
+
+
+
+--------------------------------------------------------------
+  2.2) How was your partnership? Do you feel you and your partner contributed equally to this homework?
+
+
+
+
+
+
+--------------------------------------------------------------

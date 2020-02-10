@@ -1,0 +1,253 @@
+<?xml version="1.0"?>
+<!DOCTYPE module PUBLIC
+          "-//Puppy Crawl//DTD Check Configuration 1.3//EN"
+          "http://checkstyle.sourceforge.net/dtds/configuration_1_3.dtd">
+
+<!--
+    # CSE 373 checkstyle rules
+
+    ## About
+
+    This document contains config information for the
+    checkstyle tool for CSE 373.
+
+
+    ## Overall summary
+
+    These rules are calibrated to:
+
+    1.  Enforce mainly common sense things/instincts that should be
+        engrained after completing 14x.
+
+    2.  Enforce metrics that encourage students to refactor their code
+
+    3.  Not enforce things people have strong opinions about (e.g. we
+        don't care about the brace style people use, or tabs vs spaces)
+
+    4.  Not care about comments
+
+    5.  Be generous regarding maximum line width (currently set to 120
+        characters wide)
+
+    6.  Be somewhat nitpicky about whitespacing
+
+
+    ## Compatibility notes
+
+    This config file is designed to be compatible with specifically
+    checkstyle 8.0.
+
+    Unfortunately, this config file is incompatible with the latest
+    version of checkstyle (version 8.2, as of time of writing). We
+    have to stick with the 8.0 format because Eclipse's checkstyle
+    plugin is still using 8.2.
+
+    Luckily, converting this file to the 8.2 format is easy to do
+    by hand:
+
+    1. Move the "SuppressCommentFilter" module so it's a child of
+       the "TreeWalker" module (currently, it's a child of "Checker").
+    2. Delete the `<module name="FileContentsHolder"/>` line.
+-->
+
+<module name="Checker">
+    <property name="fileExtensions" value="java"/>
+
+    <module name="TreeWalker">
+        <module name="SuppressionCommentFilter">
+            <property name="offCommentFormat"
+                      value="Generated from [a-zA-Z]*\.g4 by ANTLR"/> 
+        </module>
+
+        <!--
+            Checks for annotations
+            See http://checkstyle.sf.net/config_annotation.html 
+
+            Suppressed checks:
+                AnnotationOnSameLine                (not relevant)
+                various SuppressWarning shenanigans (not relevant)
+        -->
+        <module name="AnnotationLocation"/>
+        <module name="AnnotationUseStyle"/>
+        <module name="MissingDeprecated"/>
+        <module name="MissingOverride"/>
+        <module name="SuppressWarnings"/>
+
+        <!-- 
+            Checks for blocks.
+            See http://checkstyle.sf.net/config_blocks.html
+        -->
+        <module name="AvoidNestedBlocks"/>
+        <module name="EmptyBlock"/>
+        <module name="EmptyCatchBlock"/>
+        <module name="NeedBraces"/>
+
+        <!--
+            Checks for class design
+            See http://checkstyle.sf.net/config_design.html
+        -->
+        <module name="FinalClass"/>
+        <module name="InterfaceIsType"/>
+        <module name="OneTopLevelClass"/>
+        <module name="ThrowsCount"/>
+        <!--<module name="VisibilityModifier"/>-->
+
+        <!--
+            Checks for common coding problems
+            See http://checkstyle.sf.net/config_coding.html
+        -->
+        <module name="CovariantEquals"/>
+        <module name="DefaultComesLast"/>
+        <module name="EmptyStatement"/>
+        <module name="EqualsHashCode"/>
+        <module name="HiddenField">
+            <property name="ignoreConstructorParameter" value="true"/>
+            <property name="ignoreSetter" value="true"/>
+            <property name="setterCanReturnItsClass" value="true"/>
+        </module>
+        <module name="IllegalInstantiation"/>
+        <module name="IllegalType">
+            <property name="illegalClassNames" value="HashSet"/>
+            <property name="illegalClassNames" value="HashMap"/>
+            <property name="illegalClassNames" value="LinkedHashMap"/>
+            <property name="illegalClassNames" value="LinkedHashSet"/>
+            <property name="illegalClassNames" value="TreeSet"/>
+            <property name="illegalClassNames" value="TreeMap"/>
+            <property name="illegalClassNames" value="ArrayList"/>
+            <property name="illegalClassNames" value="LinkedList"/>
+            <property name="illegalClassNames" value="java.util.HashSet"/>
+            <property name="illegalClassNames" value="java.util.HashMap"/>
+            <property name="illegalClassNames" value="java.util.LinkedHashMap"/>
+            <property name="illegalClassNames" value="java.util.LinkedHashSet"/>
+            <property name="illegalClassNames" value="java.util.TreeSet"/>
+            <property name="illegalClassNames" value="java.util.TreeMap"/>
+            <property name="illegalClassNames" value="java.util.ArrayList"/>
+            <property name="illegalClassNames" value="java.util.LinkedList"/>
+            <property name="illegalClassNames" value="DoubleLinkedList"/>
+            <property name="illegalClassNames" value="ArrayDictionary"/>
+            <property name="illegalClassNames" value="ChainedHashDictionary"/>
+            <property name="illegalClassNames" value="ChainedHashSet"/>
+            <property name="illegalClassNames" value="ChainedHashSet"/>
+            <property name="illegalClassNames" value="ArrayHeap"/>
+            <property name="illegalClassNames" value="datastructures.concrete.DoubleLinkedList"/>
+            <property name="illegalClassNames" value="datastructures.concrete.dictionaries.ArrayDictionary"/>
+            <property name="illegalClassNames" value="datastructures.concrete.dictionaries.ChainedHashDictionary"/>
+            <property name="illegalClassNames" value="datastructures.concrete.dictionaries.ChainedHashSet"/>
+            <property name="illegalClassNames" value="datastructures.concrete.ChainedHashSet"/>
+            <property name="illegalClassNames" value="datastructures.concrete.ArrayHeap"/>
+        </module>
+        <module name="InnerAssignment"/>
+        <module name="MissingSwitchDefault"/>
+        <module name="MultipleVariableDeclarations"/>
+        <module name="NestedForDepth">
+            <property name="max" value="2"/>  
+            <message key="nested.for.depth"
+                     value="Loops are too heavily nested; code should either be simplified or refactored"/>
+        </module>
+        <module name="NestedIfDepth">
+            <property name="max" value="3"/>
+            <message key="nested.if.depth"
+                     value="If statements are too heavily nested; code should either be simplified or refactored"/>
+        </module>
+        <module name="NestedTryDepth"/>
+        <module name="NoClone"/>
+        <module name="NoFinalizer"/>
+        <module name="OneStatementPerLine"/> 
+        <module name="PackageDeclaration"/>
+        <module name="SimplifyBooleanExpression">
+            <message key="simplify.expression"
+                     value="Boolean expression can be simplified (poor boolean zen)"/>
+        </module>
+        <module name="SimplifyBooleanReturn">
+            <message key="simplify.boolreturn"
+                     value="Boolean return code can be simplified (poor boolean zen)"/>
+        </module>
+        <module name="SuperClone"/>
+        <module name="SuperFinalize"/>
+
+        <!--
+            Checks for imports
+            See http://checkstyle.sf.net/config_import.html
+        -->
+        <module name="AvoidStarImport">
+            <property name="excludes" value="javax.swing, java.awt, org.antlr.v4.runtime"/>
+        </module>
+        <module name="RedundantImport"/>
+        <module name="UnusedImports"/>
+
+        <!--
+            Checks for metrics
+            See http://checkstyle.sf.net/config_metrics.html
+        -->
+        <module name="BooleanExpressionComplexity">
+            <property name="max" value="4"/>
+        </module>
+        <module name="CyclomaticComplexity">
+            <property name="max" value="20"/>
+
+            <message key="cyclomaticComplexity"
+                     value="Method is too complex: simplify the control flow or refactor into helper methods."/>
+        </module>
+        <!--<module name="NPathComplexity"/>-->
+
+        <!--
+            Miscellaneous other checks.
+            See http://checkstyle.sf.net/config_misc.html
+        -->
+        <module name="ArrayTypeStyle"/>
+        <module name="CommentsIndentation"/>
+        <!--<module name="Indentation"/>   Note: default settings are generous -->
+        <!--<module name="OuterTypeFilename"/>-->
+        <module name="TodoComment">
+            <property name="format" value="(TODO)|(todo)|(FIXME)|(fixme)" />
+
+            <message key="todo.match"
+                     value="Found a stray TODO/FIXME comment" />
+        </module>
+        <module name="UpperEll"/>
+
+        <!--
+            Modifier Checks
+            See http://checkstyle.sf.net/config_modifiers.html
+        -->
+        <module name="ModifierOrder"/>
+
+        <!--
+            Checks for Naming Conventions.
+            See http://checkstyle.sf.net/config_naming.html
+        -->
+        <module name="CatchParameterName"/>
+        <module name="ConstantName"/>
+        <module name="LocalFinalVariableName"/>
+        <module name="LocalVariableName"/>
+        <module name="MemberName"/>
+        <module name="MethodName"/>
+        <module name="PackageName"/>
+        <module name="ParameterName"/>
+        <module name="StaticVariableName"/>
+        <module name="TypeName"/>
+
+        <!--
+            Checks for Size Violations.
+            See http://checkstyle.sf.net/config_sizes.html
+        -->
+        <module name="LineLength">
+            <property name="max" value="120"/>
+        </module>
+        <module name="ParameterNumber"/>
+
+        <!--
+            Checks for whitespace
+            See http://checkstyle.sf.net/config_whitespace.html
+        -->
+        <module name="EmptyForInitializerPad"/>
+        <module name="EmptyForIteratorPad"/>
+        <module name="GenericWhitespace"/>
+        <module name="MethodParamPad"/>
+        <module name="NoWhitespaceAfter"/>
+        <module name="NoWhitespaceBefore"/>
+        <module name="ParenPad"/>
+        <module name="TypecastParenPad"/>
+        <module name="WhitespaceAfter"/>
+    </module>
+</module>
