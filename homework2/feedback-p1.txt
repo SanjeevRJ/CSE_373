@@ -1,0 +1,119 @@
+# Feedback
+
+Group cougar: sanjrj
+
+Commit hash: 35d929d6c759a04efdc48c2f31385b5f8daddc48
+
+Raw score: 40 / 50
+
+## Checkstyle
+
+Score: 0 / 5
+
+-   FAIL: (weight=1.0) TestDeleteFunctionality.java:3:8 [UnusedImportsCheck]
+
+        Unused import - datastructures.concrete.DoubleLinkedList.
+
+-   FAIL: (weight=1.0) TestDeleteFunctionality.java:9:15 [UnusedImportsCheck]
+
+        Unused import - org.junit.Assert.assertTrue.
+
+## DoubleLinkedList
+
+Note that our tests use a different version of assertListMatches that also checks the internal
+    pointers of your list nodes. If you passed a functionality test previously, but lost points
+    during grading, it's probably because your method doesn't set all the list node pointers
+    correctly.
+
+Score: 18 / 18
+
+-   PASS: (weight=1.0) testIndexOfAndDelete
+-   PASS: (weight=1.0) testDeleteBasic
+-   PASS: (weight=1.0) testDeleteOutOfBoundsThrowsException
+-   PASS: (weight=1.0) testDeleteSingleElementList
+-   PASS: (weight=1.0) testInternalNodesAreCorrect
+-   PASS: (weight=1.0) testDeleteUpdatesSize
+-   PASS: (weight=1.0) basicTestInsert
+-   PASS: (weight=1.0) testAddAndGetMany
+-   PASS: (weight=1.0) testAddIsEfficient
+-   PASS: (weight=1.0) testAlternatingAddAndRemove
+-   PASS: (weight=1.0) testGetOutOfBoundsThrowsException
+-   PASS: (weight=1.0) testIndexOfAndContainsCorrectlyCompareItems
+-   PASS: (weight=1.0) testIndexOfAndContainsMany
+-   PASS: (weight=1.0) testInsertAtEndIsEfficient
+-   PASS: (weight=1.0) testInsertAtFrontIsEfficient
+-   PASS: (weight=1.0) testInsertEmptyAndSingleElement
+-   PASS: (weight=1.0) testInsertNearEndIsEfficient
+-   PASS: (weight=1.0) testInsertOutOfBoundsThrowsException
+-   PASS: (weight=1.0) testIteratorBasic
+-   PASS: (weight=1.0) testIteratorIsEfficient
+-   PASS: (weight=1.0) testIteratorMany
+-   PASS: (weight=1.0) testIteratorOnEmptyList
+-   PASS: (weight=1.0) testIteratorSingleElement
+-   PASS: (weight=1.0) testNullElement
+-   PASS: (weight=1.0) testRemoveFromEndIsEfficient
+-   PASS: (weight=1.0) testRemoveMany
+-   PASS: (weight=1.0) testRemoveMultiple
+-   PASS: (weight=1.0) testRemoveOnEmptyListThrowsException
+-   PASS: (weight=1.0) testSet
+-   PASS: (weight=1.0) testSetMany
+-   PASS: (weight=1.0) testSetOutOfBoundsThrowsException
+-   PASS: (weight=1.0) testSetSingleElement
+
+## ArrayDictionary
+
+Score: 15 / 15
+
+-   PASS: (weight=1.0) testRemoveEfficient
+-   PASS: (weight=1.0) testNonNullKeyAfterNullKey
+-   PASS: (weight=0.5) testNullValue
+-   PASS: (weight=1.0) testContainsKeyBasic
+-   PASS: (weight=1.0) testGetMany
+-   PASS: (weight=1.0) testGetNonexistentKeyThrowsException
+-   PASS: (weight=1.0) testLargeKey
+-   PASS: (weight=1.0) testNullKey
+-   PASS: (weight=1.0) testPutAndGetBasic
+-   PASS: (weight=1.0) testPutAndGetMany
+-   PASS: (weight=1.0) testPutDuplicateKeyAndRemove
+-   PASS: (weight=1.0) testPutDuplicateKeyMany
+-   PASS: (weight=1.0) testPutDuplicateKeyMultiple
+-   PASS: (weight=1.0) testPutRemoveMany
+-   PASS: (weight=1.0) testRemoveBasic
+-   PASS: (weight=1.0) testRemoveNonexistentThrowsException
+
+## TestDeleteStress
+
+Score: 0 / 1
+
+-   PASS: (weight=1.0) AllOk
+-   FAIL: (weight=1.0) DeliberatelyInefficientDelete
+
+        Unable to find bug with DoubleLinkedList with deliberately inefficient delete
+
+## TestDeleteFunctionality
+
+Score: 7 / 11
+
+-   PASS: (weight=1.0) AllOk
+-   FAIL: (weight=1.0) NoLowerBoundsCheck
+
+        Unable to find bug with DoubleLinkedList with no lower bounds check
+
+-   FAIL: (weight=1.0) NoUpperBoundsCheck
+
+        Unable to find bug with DoubleLinkedList with no upper bounds check
+
+-   PASS: (weight=1.0) SearchOffByOne
+-   PASS: (weight=1.0) ModificationOfFrontField
+-   PASS: (weight=1.0) MissingFrontFieldRepairLogic
+-   PASS: (weight=1.0) MissingPrevNodeRepairLogic
+-   FAIL: (weight=1.0) MissingBackFieldRepairLogic
+
+        Unable to find bug with DoubleLinkedList with missing back field repair logic
+
+-   FAIL: (weight=1.0) MissingNextNodeRepairLogic
+
+        Unable to find bug with DoubleLinkedList with missing next node repair logic
+
+-   PASS: (weight=1.0) MissingSizeUpdate
+-   PASS: (weight=1.0) CompletelyIncorrectReturnValue
