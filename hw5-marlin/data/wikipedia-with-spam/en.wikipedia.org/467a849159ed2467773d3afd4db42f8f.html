@@ -1,0 +1,975 @@
+<!-- METADATA
+uri: https://en.wikipedia.org/wiki/E_notation
+local: false
+-->
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Scientific notation - Wikipedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Scientific_notation","wgTitle":"Scientific notation","wgCurRevisionId":807305414,"wgRevisionId":807305414,"wgArticleId":59715,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["CS1 German-language sources (de)","CS1 Japanese-language sources (ja)","Numeral systems","Measurement","Notation"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Scientific_notation","wgRelevantArticleId":59715,"wgRequestId":"Wf4UUwpAADkAAIHvQrUAAACI","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRedirectedFrom":"E_notation","wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":{"toolbar":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":false,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgInternalRedirectTargetUrl":"/wiki/Scientific_notation#E-notation","wgWikibaseItemId":"Q219142","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","ext.math.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","skins.vector.styles.experimental.print":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/
+
+});mw.loader.load(["mediawiki.action.view.redirect","ext.cite.a11y","ext.math.scripts","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.interface","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});</script>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.cite.styles%7Cext.math.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cskins.vector.styles.experimental.print%7Cwikibase.client.init&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.gadget.charinsert-styles&amp;only=styles&amp;skin=vector"/>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.31.0-wmf.6"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<link rel="alternate" href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Scientific_notation#E-notation"/>
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Scientific_notation&amp;action=edit"/>
+<link rel="edit" title="Edit this page" href="/w/index.php?title=Scientific_notation&amp;action=edit"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="shortcut icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="license" href="//creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="canonical" href="https://en.wikipedia.org/wiki/Scientific_notation#E-notation"/>
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<!--[if lt IE 9]><script src="/w/load.php?debug=false&amp;lang=en&amp;modules=html5shiv&amp;only=scripts&amp;skin=vector&amp;sync=1"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Scientific_notation rootpage-Scientific_notation vector-experimental-print-styles vector-nav-directionality skin-vector action-view">		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+							<div id="siteNotice" class="mw-body-content"><!-- CentralNotice --></div>
+						<div class="mw-indicators mw-body-content">
+</div>
+			<h1 id="firstHeading" class="firstHeading" lang="en">Scientific notation</h1>
+									<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub" class="noprint">From Wikipedia, the free encyclopedia</div>
+								<div id="contentSub"><span class="mw-redirectedfrom">  (Redirected from <a href="/w/index.php?title=E_notation&amp;redirect=no" class="mw-redirect" title="E notation">E notation</a>)</span></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><div role="note" class="hatnote navigation-not-searchable">This article is about a numeric notation. For the musical notation, see <a href="/wiki/Scientific_pitch_notation" title="Scientific pitch notation">Scientific pitch notation</a>.</div>
+<p><b>Scientific notation</b> (also referred to as <b>scientific form</b> or <b>standard index form</b>, or <b>standard form</b> in the UK) is a way of expressing numbers that are too big or too small to be conveniently written in <a href="/wiki/Decimal_form" class="mw-redirect" title="Decimal form">decimal form</a>. It is commonly used by scientists, mathematicians and engineers, in part because it can simplify certain <a href="/wiki/Arithmetic_operations" class="mw-redirect" title="Arithmetic operations">arithmetic operations</a>. On scientific calculators it is usually known as "SCI" display mode.</p>
+<table class="wikitable" style="float:right; margin:5px;">
+<tr>
+<th>Decimal notation</th>
+<th>Scientific notation</th>
+</tr>
+<tr>
+<td>2</td>
+<td><span class="nowrap"><span style="display:none" class="sortkey">7000200000000000000♠</span>2<span style="margin-left:0.25em;margin-right:0.15em;">×</span>10<sup>0</sup></span></td>
+</tr>
+<tr>
+<td>300</td>
+<td><span class="nowrap"><span style="display:none" class="sortkey">7002300000000000000♠</span>3<span style="margin-left:0.25em;margin-right:0.15em;">×</span>10<sup>2</sup></span></td>
+</tr>
+<tr>
+<td>4,321.768</td>
+<td><span class="nowrap"><span style="display:none" class="sortkey">7003432176800000000♠</span>4.321<span style="margin-left:.25em;">768</span><span style="margin-left:0.25em;margin-right:0.15em;">×</span>10<sup>3</sup></span></td>
+</tr>
+<tr>
+<td>−53,000</td>
+<td><span class="nowrap"><span style="display:none" class="sortkey">2995470000000000000♠</span>−5.3<span style="margin-left:0.25em;margin-right:0.15em;">×</span>10<sup>4</sup></span></td>
+</tr>
+<tr>
+<td>6,720,000,000</td>
+<td><span class="nowrap"><span style="display:none" class="sortkey">7009672000000000000♠</span>6.72<span style="margin-left:0.25em;margin-right:0.15em;">×</span>10<sup>9</sup></span></td>
+</tr>
+<tr>
+<td>0.2</td>
+<td><span class="nowrap"><span style="display:none" class="sortkey">6999200000000000000♠</span>2<span style="margin-left:0.25em;margin-right:0.15em;">×</span>10<sup>−1</sup></span></td>
+</tr>
+<tr>
+<td>0.000&#160;000&#160;007&#160;51</td>
+<td><span class="nowrap"><span style="display:none" class="sortkey">6991751000000000000♠</span>7.51<span style="margin-left:0.25em;margin-right:0.15em;">×</span>10<sup>−9</sup></span></td>
+</tr>
+</table>
+<p>In scientific notation all numbers are written in the form</p>
+<dl>
+<dd><i>m</i>&#160;×&#160;10<sup><i>n</i></sup></dd>
+</dl>
+<p>(<i>m</i> times ten raised to the power of <i>n</i>), where the <a href="/wiki/Exponentiation" title="Exponentiation">exponent</a> <i>n</i> is an <a href="/wiki/Integer" title="Integer">integer</a>, and the <a href="/wiki/Coefficient" title="Coefficient">coefficient</a> <i>m</i> is any <a href="/wiki/Real_number" title="Real number">real number</a>, called the <i><a href="/wiki/Significand" title="Significand">significand</a></i> or <i>mantissa</i>.<sup id="cite_ref-Yadin2016_1-0" class="reference"><a href="#cite_note-Yadin2016-1">[1]</a></sup> However, the term "mantissa" may cause confusion because it is the name of the <a href="/wiki/Fractional_part" title="Fractional part">fractional part</a> of the <a href="/wiki/Common_logarithm" title="Common logarithm">common logarithm</a>. If the number is negative then a minus sign precedes <i>m</i> (as in ordinary decimal notation). In <a href="#Normalized_notation">normalized notation</a>, the exponent is chosen so that the absolute value of the coefficient is at least one but less than ten.</p>
+<p><a href="/wiki/Decimal_floating_point" title="Decimal floating point">Decimal floating point</a> is a computer arithmetic system closely related to scientific notation.</p>
+<p></p>
+<div id="toc" class="toc">
+<div class="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Normalized_notation"><span class="tocnumber">1</span> <span class="toctext">Normalized notation</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Engineering_notation"><span class="tocnumber">2</span> <span class="toctext">Engineering notation</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Significant_figures"><span class="tocnumber">3</span> <span class="toctext">Significant figures</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="#Estimated_final_digit.28s.29"><span class="tocnumber">3.1</span> <span class="toctext">Estimated final digit(s)</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-5"><a href="#E-notation"><span class="tocnumber">4</span> <span class="toctext">E-notation</span></a>
+<ul>
+<li class="toclevel-2 tocsection-6"><a href="#Examples_and_other_notations"><span class="tocnumber">4.1</span> <span class="toctext">Examples and other notations</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-7"><a href="#Order_of_magnitude"><span class="tocnumber">5</span> <span class="toctext">Order of magnitude</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#Use_of_spaces"><span class="tocnumber">6</span> <span class="toctext">Use of spaces</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#Further_examples_of_scientific_notation"><span class="tocnumber">7</span> <span class="toctext">Further examples of scientific notation</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#Converting_numbers"><span class="tocnumber">8</span> <span class="toctext">Converting numbers</span></a>
+<ul>
+<li class="toclevel-2 tocsection-11"><a href="#Decimal_to_scientific"><span class="tocnumber">8.1</span> <span class="toctext">Decimal to scientific</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#Scientific_to_decimal"><span class="tocnumber">8.2</span> <span class="toctext">Scientific to decimal</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#Exponential"><span class="tocnumber">8.3</span> <span class="toctext">Exponential</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-14"><a href="#Basic_operations"><span class="tocnumber">9</span> <span class="toctext">Basic operations</span></a></li>
+<li class="toclevel-1 tocsection-15"><a href="#Other_bases"><span class="tocnumber">10</span> <span class="toctext">Other bases</span></a></li>
+<li class="toclevel-1 tocsection-16"><a href="#See_also"><span class="tocnumber">11</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-17"><a href="#References"><span class="tocnumber">12</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-18"><a href="#External_links"><span class="tocnumber">13</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="Normalized_notation">Normalized notation</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Scientific_notation&amp;action=edit&amp;section=1" title="Edit section: Normalized notation">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div role="note" class="hatnote navigation-not-searchable">Main article: <a href="/wiki/Normalized_number" title="Normalized number">Normalized number</a></div>
+<p>Any given integer can be written in the form <span style="white-space:nowrap"><i>m</i><span style="margin-left:0.27em;margin-right:0.27em">×</span>10<span style="display:none">^</span><sup><i>n</i></sup></span> in many ways: for example, 350 can be written as <span class="nowrap"><span style="display:none" class="sortkey">7002350000000000000♠</span>3.5<span style="margin-left:0.25em;margin-right:0.15em;">×</span>10<sup>2</sup></span> or <span class="nowrap"><span style="display:none" class="sortkey">7002350000000000000♠</span>35<span style="margin-left:0.25em;margin-right:0.15em;">×</span>10<sup>1</sup></span> or <span class="nowrap"><span style="display:none" class="sortkey">7002350000000000000♠</span>350<span style="margin-left:0.25em;margin-right:0.15em;">×</span>10<sup>0</sup></span>.</p>
+<p>In <i>normalized</i> scientific notation (called "standard form" in the UK), the exponent <i>n</i> is chosen so that the <a href="/wiki/Absolute_value" title="Absolute value">absolute value</a> of <i>m</i> remains at least one but less than ten (1&#160;≤&#160;|<i>m</i>|&#160;&lt;&#160;10). Thus 350 is written as <span class="nowrap"><span style="display:none" class="sortkey">7002350000000000000♠</span>3.5<span style="margin-left:0.25em;margin-right:0.15em;">×</span>10<sup>2</sup></span>. This form allows easy comparison of numbers, as the exponent <i>n</i> gives the number's <a href="/wiki/Order_of_magnitude" title="Order of magnitude">order of magnitude</a>. In normalized notation, the exponent <i>n</i> is negative for a number with absolute value between 0 and 1 (e.g. 0.5 is written as <span class="nowrap"><span style="display:none" class="sortkey">6999500000000000000♠</span>5<span style="margin-left:0.25em;margin-right:0.15em;">×</span>10<sup>−1</sup></span>). The 10 and exponent are often omitted when the exponent is 0.</p>
+<p>Normalized scientific form is the typical form of expression of large numbers in many fields, unless an unnormalized form, such as <a href="/wiki/Engineering_notation" title="Engineering notation">engineering notation</a>, is desired. Normalized scientific notation is often called <b><a href="/wiki/Exponentiation" title="Exponentiation">exponential</a> notation</b>—although the latter term is more general and also applies when <i>m</i> is not restricted to the range 1 to 10 (as in engineering notation for instance) and to <a href="/wiki/Base_(exponentiation)" title="Base (exponentiation)">bases</a> other than 10 (as in <span style="white-space:nowrap">3.15<span style="margin-left:0.27em;margin-right:0.27em">×</span>2<span style="display:none">^</span><sup>20</sup></span>).</p>
+<h2><span class="mw-headline" id="Engineering_notation">Engineering notation</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Scientific_notation&amp;action=edit&amp;section=2" title="Edit section: Engineering notation">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div role="note" class="hatnote navigation-not-searchable">Main article: <a href="/wiki/Engineering_notation" title="Engineering notation">Engineering notation</a></div>
+<p>Engineering notation (often named "ENG" display mode on scientific calculators) differs from normalized scientific notation in that the exponent <i>n</i> is restricted to <a href="/wiki/Multiple_(mathematics)" title="Multiple (mathematics)">multiples</a> of 3. Consequently, the absolute value of <i>m</i> is in the range 1 ≤ |<i>m</i>| &lt; 1000, rather than 1 ≤ |<i>m</i>| &lt; 10. Though similar in concept, engineering notation is rarely called scientific notation. Engineering notation allows the numbers to explicitly match their corresponding <a href="/wiki/SI_prefixes" class="mw-redirect" title="SI prefixes">SI prefixes</a>, which facilitates reading and oral communication. For example, <span class="nowrap"><span style="display:none" class="sortkey">6992125000000000000♠</span>12.5<span style="margin-left:0.25em;margin-right:0.15em;">×</span>10<sup>−9</sup>&#160;m</span> can be read as "twelve-point-five nanometers" and written as <span class="nowrap"><span style="display:none" class="sortkey">6992125000000000000♠</span>12.5&#160;nm</span>, while its scientific notation equivalent <span class="nowrap"><span style="display:none" class="sortkey">6992125000000000000♠</span>1.25<span style="margin-left:0.25em;margin-right:0.15em;">×</span>10<sup>−8</sup>&#160;m</span> would likely be read out as "one-point-two-five times ten-to-the-negative-eight meters".</p>
+<h2><span class="mw-headline" id="Significant_figures">Significant figures</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Scientific_notation&amp;action=edit&amp;section=3" title="Edit section: Significant figures">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div role="note" class="hatnote navigation-not-searchable">Main article: <a href="/wiki/Significant_figures" title="Significant figures">Significant figures</a></div>
+<p>A significant figure is a digit in a number that adds to its precision. This includes all nonzero numbers, zeroes between significant digits, and zeroes <a href="/wiki/Significant_figures#Identifying_significant_digits" title="Significant figures">indicated to be significant</a>. Leading and trailing zeroes are not significant because they exist only to show the scale of the number. Therefore, 1,230,400 usually has five significant figures: 1, 2, 3, 0, and 4; the final two zeroes serve only as placeholders and add no precision to the original number.</p>
+<p>When a number is converted into normalized scientific notation, it is scaled down to a number between 1 and 10. All of the significant digits remain, but the place holding zeroes are no longer required. Thus 1,230,400 would become 1.2304&#160;×&#160;10<sup>6</sup>. However, there is also the possibility that the number may be known to six or more significant figures, in which case the number would be shown as (for instance) 1.23040&#160;×&#160;10<sup>6</sup>. Thus, an additional advantage of scientific notation is that the number of significant figures is clearer.</p>
+<h3><span id="Estimated_final_digit(s)"></span><span class="mw-headline" id="Estimated_final_digit.28s.29">Estimated final digit(s)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Scientific_notation&amp;action=edit&amp;section=4" title="Edit section: Estimated final digit(s)">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>It is customary in scientific measurements to record all the definitely known digits from the measurements, and to estimate at least one additional digit if there is any information at all available to enable the observer to make an estimate. The resulting number contains more information than it would without that extra digit(s), and it (or they) may be considered a significant digit because it conveys some information leading to greater precision in measurements and in aggregations of measurements (adding them or multiplying them together).</p>
+<p>Additional information about precision can be conveyed through additional notations. It is often useful to know how exact the final digit(s) are. For instance, the accepted value of the unit of elementary charge can properly be expressed as <span class="nowrap"><span style="display:none" class="sortkey">6981160217662079999♠</span>1.602<span style="margin-left:.25em;">176</span><span style="margin-left:.25em;">6208</span>(98)<span style="margin-left:0.25em;margin-right:0.15em;">×</span>10<sup>−19</sup>&#160;<a href="/wiki/Coulomb" title="Coulomb">C</a></span>,<sup id="cite_ref-CUU_2014_e_2-0" class="reference"><a href="#cite_note-CUU_2014_e-2">[2]</a></sup> which is shorthand for <span class="nowrap"><span style="display:none" class="sortkey">6981160217662079999♠</span>(1.602<span style="margin-left:.25em;">176</span><span style="margin-left:.25em;">6208</span><span style="margin-left:0.3em;margin-right:0.15em;">±</span>0.000<span style="margin-left:.25em;">000</span><span style="margin-left:.25em;">0098</span>)<span style="margin-left:0.25em;margin-right:0.15em;">×</span>10<sup>−19</sup>&#160;C</span>.</p>
+<h2><span class="mw-headline" id="E-notation"><span id="E_notation"></span>E-notation</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Scientific_notation&amp;action=edit&amp;section=5" title="Edit section: E-notation">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="thumb tright">
+<div class="thumbinner" style="width:172px;"><a href="/wiki/File:Avogadro%27s_number_in_e_notation.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Avogadro%27s_number_in_e_notation.jpg/170px-Avogadro%27s_number_in_e_notation.jpg" width="170" height="36" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Avogadro%27s_number_in_e_notation.jpg/255px-Avogadro%27s_number_in_e_notation.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Avogadro%27s_number_in_e_notation.jpg/340px-Avogadro%27s_number_in_e_notation.jpg 2x" data-file-width="2955" data-file-height="631" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="/wiki/File:Avogadro%27s_number_in_e_notation.jpg" class="internal" title="Enlarge"></a></div>
+A calculator display showing the <a href="/wiki/Avogadro_constant" title="Avogadro constant">Avogadro constant</a> in E-notation</div>
+</div>
+</div>
+<p>Most <a href="/wiki/Calculator" title="Calculator">calculators</a> and many <a href="/wiki/Computer_program" title="Computer program">computer programs</a> present very large and very small results in scientific notation, typically invoked by a key labelled <span class="nowrap" title="This is not a clickable button; it illustrates the button one should find." style="padding:.2em .6em; border:1px solid; border-color:#AAA #555 #555 #AAA; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; background-color: #F2F2F2; background-image: -moz-linear-gradient(top, #FCFCFC, #E0E0E0); background-image: -o-linear-gradient(top, #FCFCFC, #E0E0E0); background-image: -webkit-linear-gradient(top, #FCFCFC, #E0E0E0); background-image: linear-gradient(to bottom, #FCFCFC, #E0E0E0);">EXP</span> (for <i>exponent</i>), <span class="nowrap" title="This is not a clickable button; it illustrates the button one should find." style="padding:.2em .6em; border:1px solid; border-color:#AAA #555 #555 #AAA; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; background-color: #F2F2F2; background-image: -moz-linear-gradient(top, #FCFCFC, #E0E0E0); background-image: -o-linear-gradient(top, #FCFCFC, #E0E0E0); background-image: -webkit-linear-gradient(top, #FCFCFC, #E0E0E0); background-image: linear-gradient(to bottom, #FCFCFC, #E0E0E0);">EEX</span> (for <i>enter exponent</i>), <span class="nowrap" title="This is not a clickable button; it illustrates the button one should find." style="padding:.2em .6em; border:1px solid; border-color:#AAA #555 #555 #AAA; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; background-color: #F2F2F2; background-image: -moz-linear-gradient(top, #FCFCFC, #E0E0E0); background-image: -o-linear-gradient(top, #FCFCFC, #E0E0E0); background-image: -webkit-linear-gradient(top, #FCFCFC, #E0E0E0); background-image: linear-gradient(to bottom, #FCFCFC, #E0E0E0);">EE</span>, <span class="nowrap" title="This is not a clickable button; it illustrates the button one should find." style="padding:.2em .6em; border:1px solid; border-color:#AAA #555 #555 #AAA; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; background-color: #F2F2F2; background-image: -moz-linear-gradient(top, #FCFCFC, #E0E0E0); background-image: -o-linear-gradient(top, #FCFCFC, #E0E0E0); background-image: -webkit-linear-gradient(top, #FCFCFC, #E0E0E0); background-image: linear-gradient(to bottom, #FCFCFC, #E0E0E0);">EX</span>, <span class="nowrap" title="This is not a clickable button; it illustrates the button one should find." style="padding:.2em .6em; border:1px solid; border-color:#AAA #555 #555 #AAA; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; background-color: #F2F2F2; background-image: -moz-linear-gradient(top, #FCFCFC, #E0E0E0); background-image: -o-linear-gradient(top, #FCFCFC, #E0E0E0); background-image: -webkit-linear-gradient(top, #FCFCFC, #E0E0E0); background-image: linear-gradient(to bottom, #FCFCFC, #E0E0E0);">E</span>, or <span class="nowrap" title="This is not a clickable button; it illustrates the button one should find." style="padding:.2em .6em; border:1px solid; border-color:#AAA #555 #555 #AAA; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; background-color: #F2F2F2; background-image: -moz-linear-gradient(top, #FCFCFC, #E0E0E0); background-image: -o-linear-gradient(top, #FCFCFC, #E0E0E0); background-image: -webkit-linear-gradient(top, #FCFCFC, #E0E0E0); background-image: linear-gradient(to bottom, #FCFCFC, #E0E0E0);">×10<sup><i>x</i></sup></span> depending on vendor and model. Because <a href="/wiki/Subscript_and_superscript" title="Subscript and superscript">superscripted</a> exponents like 10<sup>7</sup> cannot always be conveniently displayed, the letter <i>E</i> (or <i>e</i>) is often used to represent "times ten raised to the power of" (which would be written as "×&#160;10<sup><i>n</i></sup>") and is followed by the value of the exponent; in other words, for any two real numbers <i>m</i> and <i>n</i>, the usage of "mEn" would indicate a value of <i>m</i> × 10<sup><i>n</i></sup>. In this usage the character <i>e</i> is not related to the <a href="/wiki/E_(mathematical_constant)" title="E (mathematical constant)">mathematical constant <i>e</i></a> or the <a href="/wiki/Exponential_function" title="Exponential function">exponential function</a> <i>e</i><sup><i>x</i></sup> (a confusion that is unlikely if scientific notation is represented by a capital <i>E</i>). Although the <i>E</i> stands for <i>exponent</i>, the notation is usually referred to as <i>(scientific) E-notation</i> rather than <i>(scientific) exponential notation</i>. The use of E-notation facilitates data entry and readability in textual communication since it minimizes keystrokes, avoids reduced font sizes and provides a simpler and more concise display, but it is not encouraged in publications.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3">[3]</a></sup></p>
+<h3><span class="mw-headline" id="Examples_and_other_notations"><span id="Decapower"></span>Examples and other notations</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Scientific_notation&amp;action=edit&amp;section=6" title="Edit section: Examples and other notations">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul>
+<li>In most popular programming languages, <code>6.022E23</code> (or <code>6.022e23</code>) is equivalent to <a href="/wiki/Avogadro_constant" title="Avogadro constant"><span class="nowrap"><span style="display:none" class="sortkey">7023602200000000000♠</span>6.022<span style="margin-left:0.25em;margin-right:0.15em;">×</span>10<sup>23</sup></span></a>, and <a href="/wiki/Planck_length" title="Planck length"><span class="nowrap"><span style="display:none" class="sortkey">6965160000000000000♠</span>1.6<span style="margin-left:0.25em;margin-right:0.15em;">×</span>10<sup>−35</sup></span></a> would be written <code>1.6E-35</code> (e.g. <a href="/wiki/Ada_(programming_language)" title="Ada (programming language)">Ada</a>, <a href="/wiki/Analytica_(software)" title="Analytica (software)">Analytica</a>, <a href="/wiki/C_(programming_language)" title="C (programming language)">C</a>/<a href="/wiki/C%2B%2B" title="C++">C++</a>, <a href="/wiki/FORTRAN" class="mw-redirect" title="FORTRAN">FORTRAN</a> (since <a href="/wiki/FORTRAN_II" class="mw-redirect" title="FORTRAN II">FORTRAN II</a> as of 1958), <a href="/wiki/MATLAB" title="MATLAB">MATLAB</a>, <a href="/wiki/Scilab" title="Scilab">Scilab</a>, <a href="/wiki/Perl" title="Perl">Perl</a>, <a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a>,<sup id="cite_ref-4" class="reference"><a href="#cite_note-4">[4]</a></sup> <a href="/wiki/Python_(programming_language)" title="Python (programming language)">Python</a>, <a href="/wiki/Lua_(programming_language)" title="Lua (programming language)">Lua</a>, <a href="/wiki/JavaScript" title="JavaScript">JavaScript</a>, and others).</li>
+<li>After the introduction of the first <a href="/wiki/Pocket_calculator" class="mw-redirect" title="Pocket calculator">pocket calculators</a> supporting scientific notation in 1972 (<a href="/wiki/HP-35" title="HP-35">HP-35</a>, <a href="/w/index.php?title=TI_SR-10&amp;action=edit&amp;redlink=1" class="new" title="TI SR-10 (page does not exist)">SR-10</a>) the term <i>decapower</i> was sometimes used in the emerging user communities for the power-of-ten multiplier in order to better distinguish it from "normal" exponents. Likewise, the letter "D" was used in typewritten numbers. This notation was proposed by Jim Davidson and published in the January 1976 issue of Richard J. Nelson's <a href="/wiki/Hewlett-Packard" title="Hewlett-Packard">Hewlett-Packard</a> newsletter <i><a href="/wiki/65_Notes" class="mw-redirect" title="65 Notes">65&#160;Notes</a></i><sup id="cite_ref-Davidson_1976_5-0" class="reference"><a href="#cite_note-Davidson_1976-5">[5]</a></sup> for <a href="/wiki/HP-65" title="HP-65">HP-65</a> users, and it was adopted and carried over into the <a href="/wiki/Texas_Instruments" title="Texas Instruments">Texas Instruments</a> community by Richard C. Vanderburgh, the editor of the <i><a href="/w/index.php?title=52-Notes&amp;action=edit&amp;redlink=1" class="new" title="52-Notes (page does not exist)">52-Notes</a></i> newsletter for <a href="/w/index.php?title=TI_SR-52&amp;action=edit&amp;redlink=1" class="new" title="TI SR-52 (page does not exist)">SR-52</a> users in November 1976.<sup id="cite_ref-Vanderburgh_1976_6-0" class="reference"><a href="#cite_note-Vanderburgh_1976-6">[6]</a></sup></li>
+<li>FORTRAN (at least since <a href="/wiki/FORTRAN_IV" class="mw-redirect" title="FORTRAN IV">FORTRAN IV</a> as of 1961) also uses "D" to signify <a href="/wiki/Double_precision" class="mw-redirect" title="Double precision">double precision</a> numbers.<sup id="cite_ref-7" class="reference"><a href="#cite_note-7">[7]</a></sup></li>
+<li>Similar, a "D" was used by <a href="/wiki/Sharp_Corporation" title="Sharp Corporation">Sharp</a> <a href="/wiki/Pocket_computer" title="Pocket computer">pocket computers</a> <a href="/w/index.php?title=Sharp_PC-1280&amp;action=edit&amp;redlink=1" class="new" title="Sharp PC-1280 (page does not exist)">PC-1280</a>, <a href="/w/index.php?title=Sharp_PC-1470U&amp;action=edit&amp;redlink=1" class="new" title="Sharp PC-1470U (page does not exist)">PC-1470U</a>, <a href="/w/index.php?title=Sharp_PC-1475&amp;action=edit&amp;redlink=1" class="new" title="Sharp PC-1475 (page does not exist)">PC-1475</a>, <a href="/wiki/Sharp_PC-1480U" class="mw-redirect" title="Sharp PC-1480U">PC-1480U</a>, <a href="/wiki/Sharp_PC-1490U" class="mw-redirect" title="Sharp PC-1490U">PC-1490U</a>, <a href="/wiki/Sharp_PC-1490UII" class="mw-redirect" title="Sharp PC-1490UII">PC-1490UII</a>, <a href="/wiki/Sharp_PC-E500" class="mw-redirect" title="Sharp PC-E500">PC-E500</a>, <a href="/wiki/Sharp_PC-E500S" title="Sharp PC-E500S">PC-E500S</a>, <a href="/wiki/Sharp_PC-E550" class="mw-redirect" title="Sharp PC-E550">PC-E550</a>, <a href="/wiki/Sharp_PC-E650" class="mw-redirect" title="Sharp PC-E650">PC-E650</a> and <a href="/wiki/Sharp_PC-U6000" class="mw-redirect" title="Sharp PC-U6000">PC-U6000</a> to indicate 20-digit double-precision numbers in <a href="/wiki/BASIC" title="BASIC">BASIC</a> between 1987 and 1995.<sup id="cite_ref-Sharp_1987_PC-1280_8-0" class="reference"><a href="#cite_note-Sharp_1987_PC-1280-8">[8]</a></sup><sup id="cite_ref-Sharp_1987_PC-1475_9-0" class="reference"><a href="#cite_note-Sharp_1987_PC-1475-9">[9]</a></sup><sup id="cite_ref-Sharp_1989_PC-E500_10-0" class="reference"><a href="#cite_note-Sharp_1989_PC-E500-10">[10]</a></sup><sup id="cite_ref-Sharp_1995_PC-E500S_11-0" class="reference"><a href="#cite_note-Sharp_1995_PC-E500S-11">[11]</a></sup><sup id="cite_ref-PC-1490UII_12-0" class="reference"><a href="#cite_note-PC-1490UII-12">[12]</a></sup><sup id="cite_ref-PC-U6000_13-0" class="reference"><a href="#cite_note-PC-U6000-13">[13]</a></sup></li>
+<li>The <a href="/wiki/ALGOL" title="ALGOL">ALGOL 60</a> (1960) programming language uses a subscript ten "<sub>10</sub>" character instead of the letter E, for example: <span class="nowrap"><code lang="ALGOL" xml:lang="ALGOL">6.022<sub>10</sub>23</code></span>.<sup id="cite_ref-14" class="reference"><a href="#cite_note-14">[14]</a></sup></li>
+<li>The use of the "<sub>10</sub>" in the various Algol standards provided a challenge on some computer systems that did not provide such a "<sub>10</sub>" character. As a consequence <a href="/wiki/Stanford_University" title="Stanford University">Stanford University</a> <a href="/wiki/Algol-W" class="mw-redirect" title="Algol-W">Algol-W</a> required the use of a single quote, e.g. <tt>6.02486'+23</tt>,<sup id="cite_ref-15" class="reference"><a href="#cite_note-15">[15]</a></sup> and some Soviet Algol variants allowed the use of the Cyrillic character "<a href="/wiki/Yu_(Cyrillic)" title="Yu (Cyrillic)">ю</a>" character, e.g. 6.022ю+23.</li>
+<li>Subsequently the <a href="/wiki/ALGOL_68" title="ALGOL 68">ALGOL 68</a> programming language provided the choice of 4 characters: E, e, \, or <sub>10</sub>. By examples: <span class="nowrap"><code lang="ALGOL" xml:lang="ALGOL">6.022E23</code></span>, <span class="nowrap"><code lang="ALGOL" xml:lang="ALGOL">6.022e23</code></span>, <span class="nowrap"><code lang="ALGOL" xml:lang="ALGOL">6.022\23</code></span> or <span class="nowrap"><code lang="ALGOL" xml:lang="ALGOL">6.022<sub>10</sub>23</code></span>.<sup id="cite_ref-16" class="reference"><a href="#cite_note-16">[16]</a></sup></li>
+</ul>
+<table role="presentation" class="metadata mbox-small noprint selfref" style="background-color:#f9f9f9;border:1px solid #aaa;color:#000;width: 22em;">
+<tr>
+<td style="width:1px"></td>
+<td class="mbox-text plainlist" style="vertical-align:middle; font-size:95%;"><b>This article contains Unicode "<a rel="nofollow" class="external text" href="http://www.unicode.org/charts/PDF/U2300.pdf">Miscellaneous Technical</a>" characters.</b> Without proper <a href="/wiki/Unicode#External_links" title="Unicode">rendering support</a>, you may see <a href="/wiki/Specials_(Unicode_block)#Replacement_character" title="Specials (Unicode block)">question marks, boxes, or other symbols</a> instead of "₁₀" (<a rel="nofollow" class="external text" href="http://mailcom.com/unicode/DecimalExponent.ttf">Decimal Exponent Symbol U+23E8 TTF</a>).</td>
+</tr>
+</table>
+<ul>
+<li><i>Decimal Exponent Symbol</i> is part of the <a href="/wiki/Unicode_Standard" class="mw-redirect" title="Unicode Standard">Unicode Standard</a>,<sup id="cite_ref-17" class="reference"><a href="#cite_note-17">[17]</a></sup> e.g. <span class="nowrap"><code lang="ALGOL" xml:lang="ALGOL">6.022⏨23</code></span>. It is included as <span class="nowrap"><span style="font-family: monospace, monospace;">U+23E8</span></span> <span style="font-size:125%">⏨</span> <span class="smallcaps" style="font-variant: small-caps; font-size: smaller;">DECIMAL EXPONENT SYMBOL</span> to accommodate usage in the programming languages Algol 60 and Algol 68.</li>
+<li>The <a href="/wiki/TI-83_series" title="TI-83 series">TI-83 series</a> and <a href="/wiki/TI-84_Plus_series" title="TI-84 Plus series">TI-84 Plus series</a> of calculators use a stylized <b><small>E</small></b> <a href="/wiki/TI_calculator_character_sets" title="TI calculator character sets">character</a> to display <i>decimal exponent</i> and the <small>10</small> character to denote an equivalent ×10^ <a href="/wiki/Operator_(programming)" class="mw-redirect" title="Operator (programming)">operator</a>.<sup id="cite_ref-18" class="reference"><a href="#cite_note-18">[18]</a></sup></li>
+<li>The <a href="/wiki/Simula" title="Simula">Simula</a> programming language requires the use of &amp; (or &amp;&amp; for <a href="/wiki/Double_precision" class="mw-redirect" title="Double precision">long</a>), for example: <span class="nowrap"><code lang="Simula" xml:lang="Simula">6.022&amp;23</code></span> <span class="nowrap">(or <code lang="Simula" xml:lang="Simula">6.022&amp;&amp;23</code>)</span>.<sup id="cite_ref-19" class="reference"><a href="#cite_note-19">[19]</a></sup></li>
+<li>The <a href="/wiki/Wolfram_Language" title="Wolfram Language">Wolfram Language</a> (utilized in <a href="/wiki/Mathematica" class="mw-redirect" title="Mathematica">Mathematica</a>) allows a shorthand notation of <code lang="Mathematica" xml:lang="Mathematica">6.022*^23</code>.</li>
+</ul>
+<h2><span class="mw-headline" id="Order_of_magnitude"><span id="Dex"></span>Order of magnitude</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Scientific_notation&amp;action=edit&amp;section=7" title="Edit section: Order of magnitude">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div role="note" class="hatnote navigation-not-searchable">Main article: <a href="/wiki/Order_of_magnitude" title="Order of magnitude">Order of magnitude</a></div>
+<p>Scientific notation also enables simpler order-of-magnitude comparisons. A <a href="/wiki/Proton" title="Proton">proton</a>'s mass is <span class="nowrap"><span style="display:none" class="sortkey">6973167260000000000♠</span>0.000<span style="margin-left:.25em;">000</span><span style="margin-left:.25em;">000</span><span style="margin-left:.25em;">000</span><span style="margin-left:.25em;">000</span><span style="margin-left:.25em;">000</span><span style="margin-left:.25em;">000</span><span style="margin-left:.25em;">000</span><span style="margin-left:.25em;">001</span><span style="margin-left:.25em;">6726</span>&#160;kg</span>. If written as <span class="nowrap"><span style="display:none" class="sortkey">6973167260000000000♠</span>1.6726<span style="margin-left:0.25em;margin-right:0.15em;">×</span>10<sup>−27</sup>&#160;kg</span>, it is easier to compare this mass with that of an electron, given below. The <a href="/wiki/Order_of_magnitude" title="Order of magnitude">order of magnitude</a> of the ratio of the masses can be obtained by comparing the exponents instead of the more error-prone task of counting the leading zeros. In this case, −27 is larger than −31 and therefore the proton is roughly four orders of magnitude (<span class="nowrap"><span style="display:none" class="sortkey">7004100000000000000♠</span>10,000</span> times) more massive than the electron.</p>
+<p>Scientific notation also avoids misunderstandings due to regional differences in certain quantifiers, such as <i><a href="/wiki/Long_and_short_scales" title="Long and short scales">billion</a></i>, which might indicate either 10<sup>9</sup> or 10<sup>12</sup>.</p>
+<p>In physics and astrophysics, the number of orders of magnitude between two numbers is sometimes referred to as "dex", a contraction of "decimal exponent". For instance, if two numbers are within 1&#160;dex of each other, then the ratio of the larger to the smaller number is less than 10. Fractional values can be used, so if within 0.5&#160;dex, the ratio is less than 10<sup>0.5</sup>, and so on.</p>
+<h2><span class="mw-headline" id="Use_of_spaces">Use of spaces</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Scientific_notation&amp;action=edit&amp;section=8" title="Edit section: Use of spaces">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>In normalized scientific notation, in E-notation, and in engineering notation, the <a href="/wiki/Space_(punctuation)" title="Space (punctuation)">space</a> (which in <a href="/wiki/Typesetting" title="Typesetting">typesetting</a> may be represented by a normal width space or a <a href="/wiki/Thin_space" title="Thin space">thin space</a>) that is allowed <i>only</i> before and after "×" or in front of "E" is sometimes omitted, though it is less common to do so before the alphabetical character.<sup id="cite_ref-20" class="reference"><a href="#cite_note-20">[20]</a></sup></p>
+<h2><span class="mw-headline" id="Further_examples_of_scientific_notation">Further examples of scientific notation</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Scientific_notation&amp;action=edit&amp;section=9" title="Edit section: Further examples of scientific notation">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li>An <a href="/wiki/Electron" title="Electron">electron</a>'s mass is about <span style="white-space:nowrap">0.000<span style="margin-left:0.25em">000</span><span style="margin-left:0.25em">000</span><span style="margin-left:0.25em">000</span><span style="margin-left:0.25em">000</span><span style="margin-left:0.25em">000</span><span style="margin-left:0.25em">000</span><span style="margin-left:0.25em">000</span><span style="margin-left:0.25em">000</span><span style="margin-left:0.25em">000</span><span style="margin-left:0.25em">910</span><span style="margin-left:0.25em">938</span><span style="margin-left:0.25em">356</span></span>&#160;kg.<sup id="cite_ref-CODATA2014Full_21-0" class="reference"><a href="#cite_note-CODATA2014Full-21">[21]</a></sup> In scientific notation, this is written <span class="nowrap"><span style="display:none" class="sortkey">6969910938355999999♠</span>9.109<span style="margin-left:.25em;">383</span><span style="margin-left:.25em;">56</span><span style="margin-left:0.25em;margin-right:0.15em;">×</span>10<sup>−31</sup>&#160;kg</span> (in SI units).</li>
+<li>The <a href="/wiki/Earth" title="Earth">Earth</a>'s <a href="/wiki/Mass" title="Mass">mass</a> is about <span style="white-space:nowrap">5<span style="margin-left:0.25em">972</span><span style="margin-left:0.25em">400</span><span style="margin-left:0.25em">000</span><span style="margin-left:0.25em">000</span><span style="margin-left:0.25em">000</span><span style="margin-left:0.25em">000</span><span style="margin-left:0.25em">000</span><span style="margin-left:0.25em">000</span></span>&#160;kg.<sup id="cite_ref-22" class="reference"><a href="#cite_note-22">[22]</a></sup> In scientific notation, this is written <span class="nowrap"><span style="display:none" class="sortkey">7024597240000000000♠</span>5.9724<span style="margin-left:0.25em;margin-right:0.15em;">×</span>10<sup>24</sup>&#160;kg</span>.</li>
+<li>The <a href="/wiki/Earth#Shape" title="Earth">Earth's circumference</a> is approximately <span style="white-space:nowrap">40<span style="margin-left:0.25em">000</span><span style="margin-left:0.25em">000</span></span>&#160;m.<sup id="cite_ref-23" class="reference"><a href="#cite_note-23">[23]</a></sup> In scientific notation, this is <span class="nowrap"><span style="display:none" class="sortkey">7007400000000000000♠</span>4<span style="margin-left:0.25em;margin-right:0.15em;">×</span>10<sup>7</sup>&#160;m</span>. In engineering notation, this is written <span class="nowrap"><span style="display:none" class="sortkey">7007400000000000000♠</span>40<span style="margin-left:0.25em;margin-right:0.15em;">×</span>10<sup>6</sup>&#160;m</span>. In <a href="/wiki/International_System_of_Units" title="International System of Units">SI writing style</a>, this may be written "<span class="nowrap"><span style="display:none" class="sortkey">7007400000000000000♠</span>40&#160;Mm</span>" (<i>40 megameters</i>).</li>
+<li>An <a href="/wiki/Inch" title="Inch">inch</a> is defined as <i>exactly</i> 25.4&#160;mm. Quoting a value of 25.400&#160;mm shows that the value is correct to the nearest micrometer. An approximated value with only two significant digits would be <span class="nowrap"><span style="display:none" class="sortkey">6998250000000000000♠</span>2.5<span style="margin-left:0.25em;margin-right:0.15em;">×</span>10<sup>1</sup>&#160;mm</span> instead. As there is no limit to the number of significant digits, the length of an inch could, if required, be written as (say) <span class="nowrap"><span style="display:none" class="sortkey">6998254000000000000♠</span>2.540<span style="margin-left:.25em;">000</span><span style="margin-left:.25em;">000</span><span style="margin-left:.25em;">00</span><span style="margin-left:0.25em;margin-right:0.15em;">×</span>10<sup>1</sup>&#160;mm</span> instead.</li>
+</ul>
+<h2><span class="mw-headline" id="Converting_numbers">Converting numbers</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Scientific_notation&amp;action=edit&amp;section=10" title="Edit section: Converting numbers">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Converting a number in these cases means to either convert the number into scientific notation form, convert it back into decimal form or to change the exponent part of the equation. None of these alter the actual number, only how it's expressed.</p>
+<h3><span class="mw-headline" id="Decimal_to_scientific">Decimal to scientific</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Scientific_notation&amp;action=edit&amp;section=11" title="Edit section: Decimal to scientific">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>First, move the decimal separator point sufficient places, <i>n</i>, to put the number's value within a desired range, between 1 and 10 for normalized notation. If the decimal was moved to the left, append "×&#160;10<i><sup>n</sup></i>"; to the right, "×&#160;10<i><sup>−n</sup></i>". To represent the number <span class="nowrap"><span style="display:none" class="sortkey">7006123040000000000♠</span>1,230,400</span> in normalized scientific notation, the decimal separator would be moved 6 digits to the left and "×&#160;10<sup>6</sup>" appended, resulting in <span class="nowrap"><span style="display:none" class="sortkey">7006123040000000000♠</span>1.2304<span style="margin-left:0.25em;margin-right:0.15em;">×</span>10<sup>6</sup></span>. The number <span class="nowrap"><span style="display:none" class="sortkey">3002596790000000000♠</span>−0.004<span style="margin-left:.25em;">0321</span></span> would have its decimal separator shifted 3 digits to the right instead of the left and yield <span class="nowrap"><span style="display:none" class="sortkey">3002596790000000000♠</span>−4.0321<span style="margin-left:0.25em;margin-right:0.15em;">×</span>10<sup>−3</sup></span> as a result.</p>
+<h3><span class="mw-headline" id="Scientific_to_decimal">Scientific to decimal</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Scientific_notation&amp;action=edit&amp;section=12" title="Edit section: Scientific to decimal">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Converting a number from scientific notation to decimal notation, first remove the <i>×&#160;10<sup>n</sup></i> on the end, then shift the decimal separator <i>n</i> digits to the right (positive <i>n</i>) or left (negative <i>n</i>). The number <span class="nowrap"><span style="display:none" class="sortkey">7006123040000000000♠</span>1.2304<span style="margin-left:0.25em;margin-right:0.15em;">×</span>10<sup>6</sup></span> would have its decimal separator shifted 6 digits to the right and become <span class="nowrap"><span style="display:none" class="sortkey">7006123040000000000♠</span>1,230,400</span>, while <span class="nowrap"><span style="display:none" class="sortkey">3002596790000000000♠</span>−4.0321<span style="margin-left:0.25em;margin-right:0.15em;">×</span>10<sup>−3</sup></span> would have its decimal separator moved 3 digits to the left and be <span class="nowrap"><span style="display:none" class="sortkey">3002596790000000000♠</span>−0.004<span style="margin-left:.25em;">0321</span></span>.</p>
+<h3><span class="mw-headline" id="Exponential">Exponential</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Scientific_notation&amp;action=edit&amp;section=13" title="Edit section: Exponential">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Conversion between different scientific notation representations of the same number with different exponential values is achieved by performing opposite operations of multiplication or division by a power of ten on the significand and an subtraction or addition of one on the exponent part. The decimal separator in the significand is shifted <i>x</i> places to the left (or right) and <i>x</i> is added to (or subtracted from) the exponent, as shown below.</p>
+<dl>
+<dd><span class="nowrap"><span style="display:none" class="sortkey">7003123400000000000♠</span>1.234<span style="margin-left:0.25em;margin-right:0.15em;">×</span>10<sup>3</sup></span> = <span class="nowrap"><span style="display:none" class="sortkey">7003123400000000000♠</span>12.34<span style="margin-left:0.25em;margin-right:0.15em;">×</span>10<sup>2</sup></span> = <span class="nowrap"><span style="display:none" class="sortkey">7003123400000000000♠</span>123.4<span style="margin-left:0.25em;margin-right:0.15em;">×</span>10<sup>1</sup></span> = 1234</dd>
+</dl>
+<h2><span class="mw-headline" id="Basic_operations">Basic operations</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Scientific_notation&amp;action=edit&amp;section=14" title="Edit section: Basic operations">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Given two numbers in scientific notation,</p>
+<dl>
+<dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML" >
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <msub>
+          <mi>x</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn>0</mn>
+          </mrow>
+        </msub>
+        <mo>=</mo>
+        <msub>
+          <mi>m</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn>0</mn>
+          </mrow>
+        </msub>
+        <mo>&#x00D7;<!-- × --></mo>
+        <msup>
+          <mn>10</mn>
+          <mrow class="MJX-TeXAtom-ORD">
+            <msub>
+              <mi>n</mi>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mn>0</mn>
+              </mrow>
+            </msub>
+          </mrow>
+        </msup>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle x_{0}=m_{0}\times 10^{n_{0}}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/be15afaf9428841c117877358dbb062ffcb5db25" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.671ex; width:15.883ex; height:2.676ex;" alt="x_0=m_0\times10^{n_0}" /></span></dd>
+</dl>
+<p>and</p>
+<dl>
+<dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML" >
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <msub>
+          <mi>x</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn>1</mn>
+          </mrow>
+        </msub>
+        <mo>=</mo>
+        <msub>
+          <mi>m</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn>1</mn>
+          </mrow>
+        </msub>
+        <mo>&#x00D7;<!-- × --></mo>
+        <msup>
+          <mn>10</mn>
+          <mrow class="MJX-TeXAtom-ORD">
+            <msub>
+              <mi>n</mi>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mn>1</mn>
+              </mrow>
+            </msub>
+          </mrow>
+        </msup>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle x_{1}=m_{1}\times 10^{n_{1}}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/07e27f72849ba37609641e63f6a630f03ecfcc7a" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.671ex; width:15.883ex; height:2.676ex;" alt="x_1=m_1\times10^{n_1}" /></span></dd>
+</dl>
+<p><a href="/wiki/Multiplication" title="Multiplication">Multiplication</a> and <a href="/wiki/Division_(mathematics)" title="Division (mathematics)">division</a> are performed using the rules for operation with <a href="/wiki/Exponentiation" title="Exponentiation">exponentiation</a>:</p>
+<dl>
+<dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML" >
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <msub>
+          <mi>x</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn>0</mn>
+          </mrow>
+        </msub>
+        <msub>
+          <mi>x</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn>1</mn>
+          </mrow>
+        </msub>
+        <mo>=</mo>
+        <msub>
+          <mi>m</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn>0</mn>
+          </mrow>
+        </msub>
+        <msub>
+          <mi>m</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn>1</mn>
+          </mrow>
+        </msub>
+        <mo>&#x00D7;<!-- × --></mo>
+        <msup>
+          <mn>10</mn>
+          <mrow class="MJX-TeXAtom-ORD">
+            <msub>
+              <mi>n</mi>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mn>0</mn>
+              </mrow>
+            </msub>
+            <mo>+</mo>
+            <msub>
+              <mi>n</mi>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mn>1</mn>
+              </mrow>
+            </msub>
+          </mrow>
+        </msup>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle x_{0}x_{1}=m_{0}m_{1}\times 10^{n_{0}+n_{1}}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/f001c20e0deb1a0775c081a23593cb3256f1c5fc" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.671ex; width:24.515ex; height:2.843ex;" alt="x_0 x_1=m_0 m_1\times10^{n_0+n_1}" /></span></dd>
+</dl>
+<p>and</p>
+<dl>
+<dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML" >
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mrow class="MJX-TeXAtom-ORD">
+          <mfrac>
+            <msub>
+              <mi>x</mi>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mn>0</mn>
+              </mrow>
+            </msub>
+            <msub>
+              <mi>x</mi>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mn>1</mn>
+              </mrow>
+            </msub>
+          </mfrac>
+        </mrow>
+        <mo>=</mo>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mfrac>
+            <msub>
+              <mi>m</mi>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mn>0</mn>
+              </mrow>
+            </msub>
+            <msub>
+              <mi>m</mi>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mn>1</mn>
+              </mrow>
+            </msub>
+          </mfrac>
+        </mrow>
+        <mo>&#x00D7;<!-- × --></mo>
+        <msup>
+          <mn>10</mn>
+          <mrow class="MJX-TeXAtom-ORD">
+            <msub>
+              <mi>n</mi>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mn>0</mn>
+              </mrow>
+            </msub>
+            <mo>&#x2212;<!-- − --></mo>
+            <msub>
+              <mi>n</mi>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mn>1</mn>
+              </mrow>
+            </msub>
+          </mrow>
+        </msup>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle {\frac {x_{0}}{x_{1}}}={\frac {m_{0}}{m_{1}}}\times 10^{n_{0}-n_{1}}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/9b538be3f091619f0cf3ad207f7b5ec41d266172" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -2.171ex; width:20.673ex; height:5.009ex;" alt="\frac{x_0}{x_1}=\frac{m_0}{m_1}\times10^{n_0-n_1}" /></span></dd>
+</dl>
+<p>Some examples are:</p>
+<dl>
+<dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML" >
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mn>5.67</mn>
+        <mo>&#x00D7;<!-- × --></mo>
+        <msup>
+          <mn>10</mn>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mo>&#x2212;<!-- − --></mo>
+            <mn>5</mn>
+          </mrow>
+        </msup>
+        <mo>&#x00D7;<!-- × --></mo>
+        <mn>2.34</mn>
+        <mo>&#x00D7;<!-- × --></mo>
+        <msup>
+          <mn>10</mn>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn>2</mn>
+          </mrow>
+        </msup>
+        <mo>&#x2248;<!-- ≈ --></mo>
+        <mn>13.3</mn>
+        <mo>&#x00D7;<!-- × --></mo>
+        <msup>
+          <mn>10</mn>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mo>&#x2212;<!-- − --></mo>
+            <mn>5</mn>
+            <mo>+</mo>
+            <mn>2</mn>
+          </mrow>
+        </msup>
+        <mo>=</mo>
+        <mn>13.3</mn>
+        <mo>&#x00D7;<!-- × --></mo>
+        <msup>
+          <mn>10</mn>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mo>&#x2212;<!-- − --></mo>
+            <mn>3</mn>
+          </mrow>
+        </msup>
+        <mo>=</mo>
+        <mn>1.33</mn>
+        <mo>&#x00D7;<!-- × --></mo>
+        <msup>
+          <mn>10</mn>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mo>&#x2212;<!-- − --></mo>
+            <mn>2</mn>
+          </mrow>
+        </msup>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle 5.67\times 10^{-5}\times 2.34\times 10^{2}\approx 13.3\times 10^{-5+2}=13.3\times 10^{-3}=1.33\times 10^{-2}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/b20d04f35711114c0c57ede6efaa89fdc586af8d" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.338ex; width:71.608ex; height:2.676ex;" alt="{\displaystyle 5.67\times 10^{-5}\times 2.34\times 10^{2}\approx 13.3\times 10^{-5+2}=13.3\times 10^{-3}=1.33\times 10^{-2}}" /></span></dd>
+</dl>
+<p>and</p>
+<dl>
+<dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML" >
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mrow class="MJX-TeXAtom-ORD">
+          <mfrac>
+            <mrow>
+              <mn>2.34</mn>
+              <mo>&#x00D7;<!-- × --></mo>
+              <msup>
+                <mn>10</mn>
+                <mrow class="MJX-TeXAtom-ORD">
+                  <mn>2</mn>
+                </mrow>
+              </msup>
+            </mrow>
+            <mrow>
+              <mn>5.67</mn>
+              <mo>&#x00D7;<!-- × --></mo>
+              <msup>
+                <mn>10</mn>
+                <mrow class="MJX-TeXAtom-ORD">
+                  <mo>&#x2212;<!-- − --></mo>
+                  <mn>5</mn>
+                </mrow>
+              </msup>
+            </mrow>
+          </mfrac>
+        </mrow>
+        <mo>&#x2248;<!-- ≈ --></mo>
+        <mn>0.413</mn>
+        <mo>&#x00D7;<!-- × --></mo>
+        <msup>
+          <mn>10</mn>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn>2</mn>
+            <mo>&#x2212;<!-- − --></mo>
+            <mo stretchy="false">(</mo>
+            <mo>&#x2212;<!-- − --></mo>
+            <mn>5</mn>
+            <mo stretchy="false">)</mo>
+          </mrow>
+        </msup>
+        <mo>=</mo>
+        <mn>0.413</mn>
+        <mo>&#x00D7;<!-- × --></mo>
+        <msup>
+          <mn>10</mn>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn>7</mn>
+          </mrow>
+        </msup>
+        <mo>=</mo>
+        <mn>4.13</mn>
+        <mo>&#x00D7;<!-- × --></mo>
+        <msup>
+          <mn>10</mn>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn>6</mn>
+          </mrow>
+        </msup>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle {\frac {2.34\times 10^{2}}{5.67\times 10^{-5}}}\approx 0.413\times 10^{2-(-5)}=0.413\times 10^{7}=4.13\times 10^{6}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/e4868a4340cc49bc3dbb04fc261cc5c23fd1499f" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -2.338ex; width:60.227ex; height:6.176ex;" alt="{\displaystyle {\frac {2.34\times 10^{2}}{5.67\times 10^{-5}}}\approx 0.413\times 10^{2-(-5)}=0.413\times 10^{7}=4.13\times 10^{6}}" /></span></dd>
+</dl>
+<p><a href="/wiki/Addition" title="Addition">Addition</a> and <a href="/wiki/Subtraction" title="Subtraction">subtraction</a> require the numbers to be represented using the same exponential part, so that the significand can be simply added or subtracted:</p>
+<dl>
+<dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML" >
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <msub>
+          <mi>x</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn>0</mn>
+          </mrow>
+        </msub>
+        <mo>=</mo>
+        <msub>
+          <mi>m</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn>0</mn>
+          </mrow>
+        </msub>
+        <mo>&#x00D7;<!-- × --></mo>
+        <msup>
+          <mn>10</mn>
+          <mrow class="MJX-TeXAtom-ORD">
+            <msub>
+              <mi>n</mi>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mn>0</mn>
+              </mrow>
+            </msub>
+          </mrow>
+        </msup>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle x_{0}=m_{0}\times 10^{n_{0}}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/be15afaf9428841c117877358dbb062ffcb5db25" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.671ex; width:15.883ex; height:2.676ex;" alt="{\displaystyle x_{0}=m_{0}\times 10^{n_{0}}}" /></span> and <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML" >
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <msub>
+          <mi>x</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn>1</mn>
+          </mrow>
+        </msub>
+        <mo>=</mo>
+        <msub>
+          <mi>m</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn>1</mn>
+          </mrow>
+        </msub>
+        <mo>&#x00D7;<!-- × --></mo>
+        <msup>
+          <mn>10</mn>
+          <mrow class="MJX-TeXAtom-ORD">
+            <msub>
+              <mi>n</mi>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mn>1</mn>
+              </mrow>
+            </msub>
+          </mrow>
+        </msup>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle x_{1}=m_{1}\times 10^{n_{1}}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/07e27f72849ba37609641e63f6a630f03ecfcc7a" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.671ex; width:15.883ex; height:2.676ex;" alt="x_1 = m_1 \times10^{n_1}" /></span> with <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML" >
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <msub>
+          <mi>n</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn>0</mn>
+          </mrow>
+        </msub>
+        <mo>=</mo>
+        <msub>
+          <mi>n</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn>1</mn>
+          </mrow>
+        </msub>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle n_{0}=n_{1}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/b129fbad013eb8d73305ff2edddead78d197f766" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.671ex; width:8.043ex; height:2.009ex;" alt="n_0 = n_1" /></span></dd>
+</dl>
+<p>Next, add or subtract the significands:</p>
+<dl>
+<dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML" >
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <msub>
+          <mi>x</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn>0</mn>
+          </mrow>
+        </msub>
+        <mo>&#x00B1;<!-- ± --></mo>
+        <msub>
+          <mi>x</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn>1</mn>
+          </mrow>
+        </msub>
+        <mo>=</mo>
+        <mo stretchy="false">(</mo>
+        <msub>
+          <mi>m</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn>0</mn>
+          </mrow>
+        </msub>
+        <mo>&#x00B1;<!-- ± --></mo>
+        <msub>
+          <mi>m</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn>1</mn>
+          </mrow>
+        </msub>
+        <mo stretchy="false">)</mo>
+        <mo>&#x00D7;<!-- × --></mo>
+        <msup>
+          <mn>10</mn>
+          <mrow class="MJX-TeXAtom-ORD">
+            <msub>
+              <mi>n</mi>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mn>0</mn>
+              </mrow>
+            </msub>
+          </mrow>
+        </msup>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle x_{0}\pm x_{1}=(m_{0}\pm m_{1})\times 10^{n_{0}}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/76e54be749bf3de6883c697b97c3652e22017455" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:28.929ex; height:2.843ex;" alt="x_0 \pm x_1=(m_0\pm m_1)\times10^{n_0}" /></span></dd>
+</dl>
+<p>An example:</p>
+<dl>
+<dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML" >
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mn>2.34</mn>
+        <mo>&#x00D7;<!-- × --></mo>
+        <msup>
+          <mn>10</mn>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mo>&#x2212;<!-- − --></mo>
+            <mn>5</mn>
+          </mrow>
+        </msup>
+        <mo>+</mo>
+        <mn>5.67</mn>
+        <mo>&#x00D7;<!-- × --></mo>
+        <msup>
+          <mn>10</mn>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mo>&#x2212;<!-- − --></mo>
+            <mn>6</mn>
+          </mrow>
+        </msup>
+        <mo>=</mo>
+        <mn>2.34</mn>
+        <mo>&#x00D7;<!-- × --></mo>
+        <msup>
+          <mn>10</mn>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mo>&#x2212;<!-- − --></mo>
+            <mn>5</mn>
+          </mrow>
+        </msup>
+        <mo>+</mo>
+        <mn>0.567</mn>
+        <mo>&#x00D7;<!-- × --></mo>
+        <msup>
+          <mn>10</mn>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mo>&#x2212;<!-- − --></mo>
+            <mn>5</mn>
+          </mrow>
+        </msup>
+        <mo>=</mo>
+        <mn>2.907</mn>
+        <mo>&#x00D7;<!-- × --></mo>
+        <msup>
+          <mn>10</mn>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mo>&#x2212;<!-- − --></mo>
+            <mn>5</mn>
+          </mrow>
+        </msup>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle 2.34\times 10^{-5}+5.67\times 10^{-6}=2.34\times 10^{-5}+0.567\times 10^{-5}=2.907\times 10^{-5}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/5023254d2a7df1e9cff7a47d8bbea37de3167602" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.505ex; width:72.867ex; height:2.843ex;" alt="2.34\times 10^{{-5}}+5.67\times 10^{{-6}}=2.34\times 10^{{-5}}+0.567\times 10^{{-5}}=2.907\times 10^{{-5}}" /></span></dd>
+</dl>
+<h2><span class="mw-headline" id="Other_bases"><span id="P-notation"></span>Other bases</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Scientific_notation&amp;action=edit&amp;section=15" title="Edit section: Other bases">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>While base ten is normally used for scientific notation, powers of other bases can be used too,<sup id="cite_ref-TI_1974_SR-22_24-0" class="reference"><a href="#cite_note-TI_1974_SR-22-24">[24]</a></sup> base 2 being the next most commonly used one.</p>
+<p>For example, in base-2 scientific notation, the number 1001<sub>b</sub> in <a href="/wiki/Binary_numeral_system" class="mw-redirect" title="Binary numeral system">binary</a> (=9<sub>d</sub>) is written as 1.001<sub>b</sub>&#160;×&#160;2<sub>d</sub><sup>11<sub>b</sub></sup> or 1.001<sub>b</sub>&#160;×&#160;10<sub>b</sub><sup>11<sub>b</sub></sup> using binary numbers (or shorter 1.001&#160;×&#160;10<sup>11</sup> if binary context is obvious). In E-notation, this is written as 1.001<sub>b</sub>E11<sub>b</sub> (or shorter: 1.001E11) with the letter <i>E</i> now standing for "times two (10<sub>b</sub>) to the power" here. In order to better distinguish this base-2 exponent from a base-10 exponent, a base-2 exponent is sometimes also indicated by using the letter <i>B</i> instead of <i>E</i>,<sup id="cite_ref-HP16C-Lib_25-0" class="reference"><a href="#cite_note-HP16C-Lib-25">[25]</a></sup> a shorthand notation originally proposed by <a href="/w/index.php?title=Bruce_Alan_Martin&amp;action=edit&amp;redlink=1" class="new" title="Bruce Alan Martin (page does not exist)">Bruce Alan Martin</a> of <a href="/wiki/Brookhaven_National_Laboratory" title="Brookhaven National Laboratory">Brookhaven National Laboratory</a> in 1968,<sup id="cite_ref-Martin_1968_26-0" class="reference"><a href="#cite_note-Martin_1968-26">[26]</a></sup> as in 1.001<sub>b</sub>B11<sub>b</sub> (or shorter: 1.001B11). For comparison, the same number in <a href="/wiki/Decimal_representation" title="Decimal representation">decimal representation</a>: 1.125&#160;×&#160;2<sup>3</sup> (using decimal representation), or 1.125B3 (still using decimal representation). Some calculators use a mixed representation for binary floating point numbers, where the exponent is displayed as decimal number even in binary mode, so the above becomes 1.001<sub>b</sub>&#160;×&#160;10<sub>b</sub><sup>3<sub>d</sub></sup> or shorter 1.001B3.<sup id="cite_ref-HP16C-Lib_25-1" class="reference"><a href="#cite_note-HP16C-Lib-25">[25]</a></sup></p>
+<p>This is closely related to the base-2 <a href="/wiki/Floating-point" class="mw-redirect" title="Floating-point">floating-point</a> representation commonly used in computer arithmetic, and the usage of IEC <a href="/wiki/Binary_prefixes" class="mw-redirect" title="Binary prefixes">binary prefixes</a> (e.g. 1B10 for 1×2<sup>10</sup> (<a href="/wiki/Kibi-" class="mw-redirect" title="Kibi-">kibi</a>), 1B20 for 1×2<sup>20</sup> (<a href="/wiki/Mebi-" class="mw-redirect" title="Mebi-">mebi</a>), 1B30 for 1×2<sup>30</sup> (<a href="/wiki/Gibi-" class="mw-redirect" title="Gibi-">gibi</a>), 1B40 for 1×2<sup>40</sup> (<a href="/wiki/Tebi-" class="mw-redirect" title="Tebi-">tebi</a>)).</p>
+<p>Similar to <i>B</i> (or <i>b</i><sup id="cite_ref-HP16C-Add_27-0" class="reference"><a href="#cite_note-HP16C-Add-27">[27]</a></sup>), the letters <i>H</i><sup id="cite_ref-HP16C-Lib_25-2" class="reference"><a href="#cite_note-HP16C-Lib-25">[25]</a></sup> (or <i>h</i><sup id="cite_ref-HP16C-Add_27-1" class="reference"><a href="#cite_note-HP16C-Add-27">[27]</a></sup>) and <i>O</i><sup id="cite_ref-HP16C-Lib_25-3" class="reference"><a href="#cite_note-HP16C-Lib-25">[25]</a></sup> (or <i>o</i>,<sup id="cite_ref-HP16C-Add_27-2" class="reference"><a href="#cite_note-HP16C-Add-27">[27]</a></sup> or <i>C</i><sup id="cite_ref-HP16C-Lib_25-4" class="reference"><a href="#cite_note-HP16C-Lib-25">[25]</a></sup>) are sometimes also used to indicate <i>times 16 or 8 to the power</i> as in 1.25 = 1.40<sub>h</sub>&#160;×&#160;10<sub>h</sub><sup>0<sub>h</sub></sup> = 1.40H0 = 1.40h0, or 98000 = 2.7732<sub>o</sub>&#160;×&#160;10<sub>o</sub><sup>5<sub>o</sub></sup> = 2.7732o5 = 2.7732C5.<sup id="cite_ref-HP16C-Lib_25-5" class="reference"><a href="#cite_note-HP16C-Lib-25">[25]</a></sup></p>
+<p>Another similar convention to denote base-2 exponents is using a letter <i>P</i> (or <i>p</i>, for "power"). In this notation the significand is always meant to be hexadecimal, whereas the exponent is always meant to be decimal.<sup id="cite_ref-Rationale_2003_C_28-0" class="reference"><a href="#cite_note-Rationale_2003_C-28">[28]</a></sup> This notation can be produced by implementations of the <i><a href="/wiki/Printf" class="mw-redirect" title="Printf">printf</a></i> family of functions following the <a href="/wiki/C99" title="C99">C99</a> specification and (<a href="/wiki/Single_Unix_Specification" class="mw-redirect" title="Single Unix Specification">Single Unix Specification</a>) <a href="/wiki/IEEE_Std_1003.1" class="mw-redirect" title="IEEE Std 1003.1">IEEE Std 1003.1</a> <a href="/wiki/POSIX" title="POSIX">POSIX</a> standard, when using the <i>%a</i> or <i>%A</i> conversion specifiers.<sup id="cite_ref-Rationale_2003_C_28-1" class="reference"><a href="#cite_note-Rationale_2003_C-28">[28]</a></sup><sup id="cite_ref-printf_2013_29-0" class="reference"><a href="#cite_note-printf_2013-29">[29]</a></sup><sup id="cite_ref-Beebe_2017_Hex_30-0" class="reference"><a href="#cite_note-Beebe_2017_Hex-30">[30]</a></sup> Starting with <a href="/wiki/C%2B%2B11" title="C++11">C++11</a>, <a href="/wiki/C%2B%2B" title="C++">C++</a> I/O functions could parse and print the P-notation as well. Meanwhile, the notation has been fully adopted by the language standard since <a href="/wiki/C%2B%2B17" title="C++17">C++17</a>.<sup id="cite_ref-C.2B.2B17_31-0" class="reference"><a href="#cite_note-C.2B.2B17-31">[31]</a></sup> <a href="/wiki/Apple_Corporation" class="mw-redirect" title="Apple Corporation">Apple</a>'s <a href="/wiki/Swift_(programming_language)" title="Swift (programming language)">Swift</a> supports it as well.<sup id="cite_ref-Swift_2017_32-0" class="reference"><a href="#cite_note-Swift_2017-32">[32]</a></sup> It is also required by the <a href="/wiki/IEEE_754-2008" class="mw-redirect" title="IEEE 754-2008">IEEE 754-2008</a> binary floating-point standard. Example: 1.3DEp42 represents 1.3DE<sub>h</sub>&#160;×&#160;2<sup>42</sup>.</p>
+<p><a href="/wiki/Engineering_notation" title="Engineering notation">Engineering notation</a> can be viewed as a base-1000 scientific notation.</p>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Scientific_notation&amp;action=edit&amp;section=16" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a href="/wiki/Binary_prefix" title="Binary prefix">Binary prefix</a></li>
+<li><a href="/wiki/Variable_scientific_notation" class="mw-redirect" title="Variable scientific notation">Variable scientific notation</a></li>
+<li><a href="/wiki/Engineering_notation" title="Engineering notation">Engineering notation</a></li>
+<li><a href="/wiki/Floating_point" class="mw-redirect" title="Floating point">Floating point</a></li>
+<li><a href="/wiki/ISO_31-0" title="ISO 31-0">ISO 31-0</a></li>
+<li><a href="/wiki/ISO_31-11" title="ISO 31-11">ISO 31-11</a></li>
+<li><a href="/wiki/Significant_figure" class="mw-redirect" title="Significant figure">Significant figure</a></li>
+<li><a href="/wiki/Suzhou_numerals" title="Suzhou numerals">Suzhou numerals</a> are written with order of magnitude and unit of measurement below the significand</li>
+<li><a href="/wiki/Letter_and_digit_code_for_resistance_and_capacitance_values" class="mw-redirect" title="Letter and digit code for resistance and capacitance values">Letter and digit code for resistance and capacitance values</a></li>
+</ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Scientific_notation&amp;action=edit&amp;section=17" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist columns references-column-width" style="-moz-column-width: 30em; -webkit-column-width: 30em; column-width: 30em; list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-Yadin2016-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-Yadin2016_1-0">^</a></b></span> <span class="reference-text"><cite id="CITEREFYadin2016" class="citation">Yadin, Aharon (2016), <a rel="nofollow" class="external text" href="https://books.google.com/books?id=yMDBDAAAQBAJ&amp;pg=PA68"><i>Computer Systems Architecture</i></a>, Chapman &amp; Hall/CRC Textbooks in Computing, CRC Press, p.&#160;68−69, <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/1482231069" title="Special:BookSources/1482231069">1482231069</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AScientific+notation&amp;rft.aufirst=Aharon&amp;rft.aulast=Yadin&amp;rft.btitle=Computer+Systems+Architecture&amp;rft.date=2016&amp;rft.genre=book&amp;rft.isbn=1482231069&amp;rft.pages=68%E2%88%9269&amp;rft.pub=CRC+Press&amp;rft.series=Chapman+%26+Hall%2FCRC+Textbooks+in+Computing&amp;rft_id=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3DyMDBDAAAQBAJ%26pg%3DPA68&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-CUU_2014_e-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-CUU_2014_e_2-0">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://physics.nist.gov/cgi-bin/cuu/Value?e">"CODATA Value: Elementary charge <i>e</i>"</a>. <i><a href="/wiki/CODATA_2014" class="mw-redirect" title="CODATA 2014">CODATA 2014</a>: The NIST Reference on Constants, Units, and Uncertainty: Fundamental Physical Constants</i>. <a href="/wiki/NIST" class="mw-redirect" title="NIST">NIST</a>. 2014-06-25. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20170625091532/http://physics.nist.gov/cgi-bin/cuu/Value?e">Archived</a> from the original on 2017-06-25<span class="reference-accessdate">. Retrieved <span class="nowrap">2017-06-25</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AScientific+notation&amp;rft.atitle=CODATA+Value%3A+Elementary+charge+e&amp;rft.date=2014-06-25&amp;rft.genre=unknown&amp;rft.jtitle=CODATA+2014%3A+The+NIST+Reference+on+Constants%2C+Units%2C+and+Uncertainty%3A+Fundamental+Physical+Constants&amp;rft_id=http%3A%2F%2Fphysics.nist.gov%2Fcgi-bin%2Fcuu%2FValue%3Fe&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><cite id="CITEREFEdwards2009" class="citation">Edwards, John (2009), <a rel="nofollow" class="external text" href="http://hps.org/documents/2010_midyear_author-submission-guidelines.pdf"><i>Submission Guidelines for Authors: HPS 2010 Midyear Proceedings</i></a> <span style="font-size:85%;">(PDF)</span>, <a href="/wiki/McLean,_Virginia" title="McLean, Virginia">McLean, Virginia</a>: Health Physics Society, p.&#160;5<span class="reference-accessdate">, retrieved <span class="nowrap">2013-03-30</span></span></cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AScientific+notation&amp;rft.aufirst=John&amp;rft.aulast=Edwards&amp;rft.btitle=Submission+Guidelines+for+Authors%3A+HPS+2010+Midyear+Proceedings&amp;rft.date=2009&amp;rft.genre=book&amp;rft.pages=5&amp;rft.place=McLean%2C+Virginia&amp;rft.pub=Health+Physics+Society&amp;rft_id=http%3A%2F%2Fhps.org%2Fdocuments%2F2010_midyear_author-submission-guidelines.pdf&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://download.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html">"Primitive Data Types (The Java Tutorials &gt; Learning the Java Language &gt; Language Basics)"</a>. <a href="/wiki/Oracle_Corporation" title="Oracle Corporation">Oracle Corporation</a><span class="reference-accessdate">. Retrieved <span class="nowrap">2012-03-06</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AScientific+notation&amp;rft.btitle=Primitive+Data+Types+%28The+Java+Tutorials+%3E+Learning+the+Java+Language+%3E+Language+Basics%29&amp;rft.genre=unknown&amp;rft.pub=Oracle+Corporation&amp;rft_id=http%3A%2F%2Fdownload.oracle.com%2Fjavase%2Ftutorial%2Fjava%2Fnutsandbolts%2Fdatatypes.html&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-Davidson_1976-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-Davidson_1976_5-0">^</a></b></span> <span class="reference-text"><cite class="citation journal">Davidson, Jim (January 1976). Nelson, Richard J., ed. "unknown". <i><a href="/wiki/65_Notes" class="mw-redirect" title="65 Notes">65 Notes</a></i>. <b>3</b> (1): 4. V3N1P4.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AScientific+notation&amp;rft.atitle=unknown&amp;rft.aufirst=Jim&amp;rft.aulast=Davidson&amp;rft.date=1976-01&amp;rft.genre=article&amp;rft.issue=1&amp;rft.jtitle=65+Notes&amp;rft.pages=4&amp;rft.volume=3&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-Vanderburgh_1976-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-Vanderburgh_1976_6-0">^</a></b></span> <span class="reference-text"><cite class="citation journal">Vanderburgh, Richard C., ed. (November 1976). <a rel="nofollow" class="external text" href="http://www.claudiolarini.altervista.org/pdf/52NOTES.pdf">"Decapower"</a> <span style="font-size:85%;">(PDF)</span>. <i><a href="/w/index.php?title=52-Notes&amp;action=edit&amp;redlink=1" class="new" title="52-Notes (page does not exist)">52-Notes</a> - Newsletter of the SR-52 Users Club</i>. Dayton, Ohio, USA. <b>1</b> (6): 1. V1N6P1. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20170528031508/http://www.claudiolarini.altervista.org/pdf/52NOTES.pdf">Archived</a> <span style="font-size:85%;">(PDF)</span> from the original on 2017-05-28<span class="reference-accessdate">. Retrieved <span class="nowrap">2017-05-28</span></span>. <q><i>Decapower</i> - In the January 1976 issue of <a href="/wiki/65_Notes" class="mw-redirect" title="65 Notes">65-Notes</a> (V3N1p4) Jim Davidson (<a href="/wiki/HP-65" title="HP-65">HP-65</a> Users Club member #547) suggested the term "decapower" as a descriptor for the power-of-ten multiplier used in scientific notation displays. I'm going to begin using it in place of "<a href="/wiki/Exponent" class="mw-redirect" title="Exponent">exponent</a>" which is technically incorrect, and the letter D to separate the "<a href="/wiki/Mantissa_(floating_point_number)" class="mw-redirect" title="Mantissa (floating point number)">mantissa</a>" from the decapower for typewritten numbers, as Jim also suggests. For example, <tt>123<sup>−45</sup></tt> [<i><a href="/wiki/Sic" title="Sic">sic</a></i>] which is displayed in scientific notation as <tt>1.23 -43</tt> will now be written <tt>1.23D-43</tt>. Perhaps, as this notation gets more and more usage, the calculator manufacturers will change their keyboard abbreviations. HP's <span class="nowrap" title="This is not a clickable button; it illustrates the button one should find." style="padding:.2em .6em; border:1px solid; border-color:#AAA #555 #555 #AAA; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; background-color: #F2F2F2; background-image: -moz-linear-gradient(top, #FCFCFC, #E0E0E0); background-image: -o-linear-gradient(top, #FCFCFC, #E0E0E0); background-image: -webkit-linear-gradient(top, #FCFCFC, #E0E0E0); background-image: linear-gradient(to bottom, #FCFCFC, #E0E0E0);">EEX</span> and TI's <span class="nowrap" title="This is not a clickable button; it illustrates the button one should find." style="padding:.2em .6em; border:1px solid; border-color:#AAA #555 #555 #AAA; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; background-color: #F2F2F2; background-image: -moz-linear-gradient(top, #FCFCFC, #E0E0E0); background-image: -o-linear-gradient(top, #FCFCFC, #E0E0E0); background-image: -webkit-linear-gradient(top, #FCFCFC, #E0E0E0); background-image: linear-gradient(to bottom, #FCFCFC, #E0E0E0);">EE</span> could be changed to <span class="nowrap" title="This is not a clickable button; it illustrates the button one should find." style="padding:.2em .6em; border:1px solid; border-color:#AAA #555 #555 #AAA; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; background-color: #F2F2F2; background-image: -moz-linear-gradient(top, #FCFCFC, #E0E0E0); background-image: -o-linear-gradient(top, #FCFCFC, #E0E0E0); background-image: -webkit-linear-gradient(top, #FCFCFC, #E0E0E0); background-image: linear-gradient(to bottom, #FCFCFC, #E0E0E0);">ED</span> (for enter decapower).</q></cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AScientific+notation&amp;rft.atitle=Decapower&amp;rft.date=1976-11&amp;rft.genre=article&amp;rft.issue=6&amp;rft.jtitle=52-Notes+-+Newsletter+of+the+SR-52+Users+Club&amp;rft.pages=1&amp;rft.volume=1&amp;rft_id=http%3A%2F%2Fwww.claudiolarini.altervista.org%2Fpdf%2F52NOTES.pdf&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span> <a rel="nofollow" class="external autonumber" href="https://www.rskey.org/DOCUMENTS/52NOTES/52v1n6.html">[1]</a> (NB. The term <i>decapower</i> was frequently used in subsequent issues of this newsletter up to at least 1978.)</span></li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://www.math.hawaii.edu/lab/197/fortran/fort3.htm#double">"UH Mānoa Mathematics&#160;» Fortran lesson 3: Format, Write, etc."</a>. Math.hawaii.edu. 2012-02-12<span class="reference-accessdate">. Retrieved <span class="nowrap">2012-03-06</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AScientific+notation&amp;rft.btitle=UH+M%C4%81noa+Mathematics+%C2%BB+Fortran+lesson+3%3A+Format%2C+Write%2C+etc.&amp;rft.date=2012-02-12&amp;rft.genre=unknown&amp;rft.pub=Math.hawaii.edu&amp;rft_id=http%3A%2F%2Fwww.math.hawaii.edu%2Flab%2F197%2Ffortran%2Ffort3.htm%23double&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-Sharp_1987_PC-1280-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-Sharp_1987_PC-1280_8-0">^</a></b></span> <span class="reference-text"><cite class="citation book"><a rel="nofollow" class="external text" href="http://www.instructionsmanuals.com/u2/pdf/calculadoras/Sharp-PC1280-de.pdf"><i>SHARP Taschencomputer Modell PC-1280 Bedienungsanleitung</i></a> [<i>SHARP Pocket Computer Model PC-1280 Operation Manual</i>] <span style="font-size:85%;">(PDF)</span> (in German). <a href="/wiki/Sharp_Corporation" title="Sharp Corporation">Sharp Corporation</a>. 1987. pp.&#160;56–60. 7M 0.8-I(TINSG1123ECZZ)(3). <a rel="nofollow" class="external text" href="https://web.archive.org/web/20170306145930/http://www.instructionsmanuals.com/u2/pdf/calculadoras/Sharp-PC1280-de.pdf">Archived</a> <span style="font-size:85%;">(PDF)</span> from the original on 2017-03-06<span class="reference-accessdate">. Retrieved <span class="nowrap">2017-03-06</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AScientific+notation&amp;rft.btitle=SHARP+Taschencomputer+Modell+PC-1280+Bedienungsanleitung&amp;rft.date=1987&amp;rft.genre=book&amp;rft.pages=56-60&amp;rft.pub=Sharp+Corporation&amp;rft_id=http%3A%2F%2Fwww.instructionsmanuals.com%2Fu2%2Fpdf%2Fcalculadoras%2FSharp-PC1280-de.pdf&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-Sharp_1987_PC-1475-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-Sharp_1987_PC-1475_9-0">^</a></b></span> <span class="reference-text"><cite class="citation book"><a rel="nofollow" class="external text" href="https://web.archive.org/web/20170225090805/http://www.instructionsmanuals.com/u2/pdf/calculadoras/Sharp-PC1475-de.pdf"><i>SHARP Taschencomputer Modell PC-1475 Bedienungsanleitung</i></a> [<i>SHARP Pocket Computer Model PC-1475 Operation Manual</i>] <span style="font-size:85%;">(PDF)</span> (in German). <a href="/wiki/Sharp_Corporation" title="Sharp Corporation">Sharp Corporation</a>. 1987. pp.&#160;105–108, 131–134, 370, 375. Archived from <a rel="nofollow" class="external text" href="http://www.instructionsmanuals.com/u2/pdf/calculadoras/Sharp-PC1475-de.pdf">the original</a> <span style="font-size:85%;">(PDF)</span> on 2017-02-25<span class="reference-accessdate">. Retrieved <span class="nowrap">2017-02-25</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AScientific+notation&amp;rft.btitle=SHARP+Taschencomputer+Modell+PC-1475+Bedienungsanleitung&amp;rft.date=1987&amp;rft.genre=book&amp;rft.pages=105-108%2C+131-134%2C+370%2C+375&amp;rft.pub=Sharp+Corporation&amp;rft_id=http%3A%2F%2Fwww.instructionsmanuals.com%2Fu2%2Fpdf%2Fcalculadoras%2FSharp-PC1475-de.pdf&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-Sharp_1989_PC-E500-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-Sharp_1989_PC-E500_10-0">^</a></b></span> <span class="reference-text"><cite class="citation book"><i>SHARP Pocket Computer Model PC-E500 Operation Manual</i>. <a href="/wiki/Sharp_Corporation" title="Sharp Corporation">Sharp Corporation</a>. 1989. 9G1KS(TINSE1189ECZZ).</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AScientific+notation&amp;rft.btitle=SHARP+Pocket+Computer+Model+PC-E500+Operation+Manual&amp;rft.date=1989&amp;rft.genre=book&amp;rft.pub=Sharp+Corporation&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-Sharp_1995_PC-E500S-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-Sharp_1995_PC-E500S_11-0">^</a></b></span> <span class="reference-text"><cite class="citation book"><a rel="nofollow" class="external text" href="http://vininc.de/Literatur/Sharp%20Bedienungsanleitungen/PC-E500S-DE.pdf"><i>SHARP Taschencomputer Modell PC-E500S Bedienungsanleitung</i></a> [<i>SHARP Pocket Computer Model PC-E500S Operation Manual</i>] <span style="font-size:85%;">(PDF)</span> (in German). <a href="/wiki/Sharp_Corporation" title="Sharp Corporation">Sharp Corporation</a>. 1995. 6J3KS(TINSG1223ECZZ). <a rel="nofollow" class="external text" href="https://web.archive.org/web/20170224235944/http://vininc.de/Literatur/Sharp%20Bedienungsanleitungen/PC-E500S-DE.pdf">Archived</a> <span style="font-size:85%;">(PDF)</span> from the original on 2017-02-24<span class="reference-accessdate">. Retrieved <span class="nowrap">2017-02-24</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AScientific+notation&amp;rft.btitle=SHARP+Taschencomputer+Modell+PC-E500S+Bedienungsanleitung&amp;rft.date=1995&amp;rft.genre=book&amp;rft.pub=Sharp+Corporation&amp;rft_id=http%3A%2F%2Fvininc.de%2FLiteratur%2FSharp%2520Bedienungsanleitungen%2FPC-E500S-DE.pdf&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-PC-1490UII-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-PC-1490UII_12-0">^</a></b></span> <span class="reference-text"><cite class="citation book"><i>電言板5 PC-1490UII PROGRAM LIBRARY</i> (in Japanese). <b>5</b>. University Co-op. 1991.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AScientific+notation&amp;rft.btitle=%E9%9B%BB%E8%A8%80%E6%9D%BF5+PC-1490UII+PROGRAM+LIBRARY&amp;rft.date=1991&amp;rft.genre=book&amp;rft.pub=University+Co-op&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span> (NB. <a rel="nofollow" class="external text" href="http://www.univcoop.or.jp/en/index.html">University Co-operative</a>)</span></li>
+<li id="cite_note-PC-U6000-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-PC-U6000_13-0">^</a></b></span> <span class="reference-text"><cite class="citation book"><i>電言板6 PC-U6000 PROGRAM LIBRARY</i> (in Japanese). <b>6</b>. University Co-op. 1993.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AScientific+notation&amp;rft.btitle=%E9%9B%BB%E8%A8%80%E6%9D%BF6+PC-U6000+PROGRAM+LIBRARY&amp;rft.date=1993&amp;rft.genre=book&amp;rft.pub=University+Co-op&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span> (NB. <a rel="nofollow" class="external text" href="http://www.univcoop.or.jp/en/index.html">University Co-operative</a>)</span></li>
+<li id="cite_note-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-14">^</a></b></span> <span class="reference-text"><cite class="citation book"><a href="/wiki/Peter_Naur" title="Peter Naur">Naur, Peter</a>, ed. (1960). <i>Report on the Algorithmic Language ALGOL 60</i>. Copenhagen.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AScientific+notation&amp;rft.btitle=Report+on+the+Algorithmic+Language+ALGOL+60&amp;rft.date=1960&amp;rft.genre=book&amp;rft.place=Copenhagen&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-15">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://i.stanford.edu/pub/cstr/reports/cs/tr/68/86/CS-TR-68-86.pdf">http://i.stanford.edu/pub/cstr/reports/cs/tr/68/86/CS-TR-68-86.pdf</a></span></li>
+<li id="cite_note-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-16">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://www.springerlink.com/content/k902506t443683p5/">"Revised Report on the Algorithmic Language Algol 68"</a>. September 1973<span class="reference-accessdate">. Retrieved <span class="nowrap">2007-04-30</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AScientific+notation&amp;rft.btitle=Revised+Report+on+the+Algorithmic+Language+Algol+68&amp;rft.date=1973-09&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.springerlink.com%2Fcontent%2Fk902506t443683p5%2F&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-17"><span class="mw-cite-backlink"><b><a href="#cite_ref-17">^</a></b></span> <span class="reference-text"><cite class="citation"><a rel="nofollow" class="external text" href="http://www.unicode.org/versions/Unicode7.0.0/"><i>The Unicode Standard</i></a></cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AScientific+notation&amp;rft.btitle=The+Unicode+Standard&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.unicode.org%2Fversions%2FUnicode7.0.0%2F&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-18"><span class="mw-cite-backlink"><b><a href="#cite_ref-18">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://education.ti.com/downloads/guidebooks/sdk/83p/sdk83pguide.pdf">http://education.ti.com/downloads/guidebooks/sdk/83p/sdk83pguide.pdf</a></span></li>
+<li id="cite_note-19"><span class="mw-cite-backlink"><b><a href="#cite_ref-19">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://prosjekt.ring.hibu.no/simula/Standard/chap_1.htm">"SIMULA standard as defined by the SIMULA Standards Group - 3.1 Numbers"</a>. August 1986<span class="reference-accessdate">. Retrieved <span class="nowrap">2009-10-06</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AScientific+notation&amp;rft.btitle=SIMULA+standard+as+defined+by+the+SIMULA+Standards+Group+-+3.1+Numbers&amp;rft.date=1986-08&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fprosjekt.ring.hibu.no%2Fsimula%2FStandard%2Fchap_1.htm&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-20"><span class="mw-cite-backlink"><b><a href="#cite_ref-20">^</a></b></span> <span class="reference-text">Samples of usage of terminology and variants: <a rel="nofollow" class="external autonumber" href="http://darchive.mblwhoilibrary.org/bitstream/1912/665/1/WHOI-76-59.pdf">[2]</a>, <a rel="nofollow" class="external autonumber" href="http://www.brookscole.com/physics_d/templates/student_resources/003026961X_serway/review/expnot.html">[3]</a>, <a rel="nofollow" class="external autonumber" href="http://www.brynmawr.edu/nsf/tutorial/ss/ssnot.html">[4]</a>, <a rel="nofollow" class="external autonumber" href="http://www.lasalle.edu/~smithsc/Astronomy/Units/sci_notation.html">[5]</a>, <a rel="nofollow" class="external autonumber" href="http://www.gnsphysics.com/mathreview.pdf">[6]</a>, <a rel="nofollow" class="external autonumber" href="http://www.ttinet.com/doc/language_v44_003.html#heading_3.2.4.2">[7]</a></span></li>
+<li id="cite_note-CODATA2014Full-21"><span class="mw-cite-backlink"><b><a href="#cite_ref-CODATA2014Full_21-0">^</a></b></span> <span class="reference-text"><cite class="citation journal">Mohr, Peter J.; Newell, David B.; Taylor, Barry N. (July–September 2016). <a rel="nofollow" class="external text" href="http://ws680.nist.gov/publication/get_pdf.cfm?pub_id=920687">"CODATA recommended values of the fundamental physical constants: 2014"</a>. <i><a href="/wiki/Reviews_of_Modern_Physics" title="Reviews of Modern Physics">Reviews of Modern Physics</a></i>. <b>88</b> (3): 035009. <a href="/wiki/ArXiv" title="ArXiv">arXiv</a>:<span class="plainlinks"><a rel="nofollow" class="external text" href="//arxiv.org/abs/1507.07956">1507.07956</a> <img alt="Freely accessible" src="//upload.wikimedia.org/wikipedia/commons/thumb/6/65/Lock-green.svg/9px-Lock-green.svg.png" title="Freely accessible" width="9" height="14" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/65/Lock-green.svg/14px-Lock-green.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/65/Lock-green.svg/18px-Lock-green.svg.png 2x" data-file-width="512" data-file-height="813" /></span>. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="//doi.org/10.1103%2FRevModPhys.88.035009">10.1103/RevModPhys.88.035009</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AScientific+notation&amp;rft.atitle=CODATA+recommended+values+of+the+fundamental+physical+constants%3A+2014&amp;rft.au=Newell%2C+David+B.&amp;rft.au=Taylor%2C+Barry+N.&amp;rft.aufirst=Peter+J.&amp;rft.aulast=Mohr&amp;rft.date=2016-07%2F2016-09&amp;rft.genre=article&amp;rft.issue=3&amp;rft.jtitle=Reviews+of+Modern+Physics&amp;rft.pages=035009&amp;rft.volume=88&amp;rft_id=http%3A%2F%2Fws680.nist.gov%2Fpublication%2Fget_pdf.cfm%3Fpub_id%3D920687&amp;rft_id=info%3Aarxiv%2F1507.07956&amp;rft_id=info%3Adoi%2F10.1103%2FRevModPhys.88.035009&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-22"><span class="mw-cite-backlink"><b><a href="#cite_ref-22">^</a></b></span> <span class="reference-text"><cite class="citation journal">Luzum, Brian; Capitaine, Nicole; Fienga, Agnès; Folkner, William; Fukushima, Toshio; Hilton, James; Hohenkerk, Catherine; Krasinsky, George; Petit, Gérard; Pitjeva, Elena; Soffel, Michael; Wallace, Patrick (August 2011). "The IAU 2009 system of astronomical constants: The report of the IAU working group on numerical standards for Fundamental Astronomy". <i>Celestial Mechanics and Dynamical Astronomy</i>. <b>110</b> (4): 293–304. <a href="/wiki/Bibcode" title="Bibcode">Bibcode</a>:<a rel="nofollow" class="external text" href="http://adsabs.harvard.edu/abs/2011CeMDA.110..293L">2011CeMDA.110..293L</a>. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="//doi.org/10.1007%2Fs10569-011-9352-4">10.1007/s10569-011-9352-4</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AScientific+notation&amp;rft.atitle=The+IAU+2009+system+of+astronomical+constants%3A+The+report+of+the+IAU+working+group+on+numerical+standards+for+Fundamental+Astronomy&amp;rft.au=Capitaine%2C+Nicole&amp;rft.au=Fienga%2C+Agn%C3%A8s&amp;rft.au=Folkner%2C+William&amp;rft.au=Fukushima%2C+Toshio&amp;rft.au=Hilton%2C+James&amp;rft.au=Hohenkerk%2C+Catherine&amp;rft.au=Krasinsky%2C+George&amp;rft.au=Petit%2C+G%C3%A9rard&amp;rft.au=Pitjeva%2C+Elena&amp;rft.au=Soffel%2C+Michael&amp;rft.au=Wallace%2C+Patrick&amp;rft.aufirst=Brian&amp;rft.aulast=Luzum&amp;rft.date=2011-08&amp;rft.genre=article&amp;rft.issue=4&amp;rft.jtitle=Celestial+Mechanics+and+Dynamical+Astronomy&amp;rft.pages=293-304&amp;rft.volume=110&amp;rft_id=info%3Abibcode%2F2011CeMDA.110..293L&amp;rft_id=info%3Adoi%2F10.1007%2Fs10569-011-9352-4&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-23"><span class="mw-cite-backlink"><b><a href="#cite_ref-23">^</a></b></span> <span class="reference-text"><cite class="citation book">Various (2000). Lide, David R., ed. <i>Handbook of Chemistry and Physics</i> (81st ed.). CRC. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0-8493-0481-4" title="Special:BookSources/0-8493-0481-4">0-8493-0481-4</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AScientific+notation&amp;rft.au=Various&amp;rft.btitle=Handbook+of+Chemistry+and+Physics&amp;rft.date=2000&amp;rft.edition=81st&amp;rft.genre=book&amp;rft.isbn=0-8493-0481-4&amp;rft.pub=CRC&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-TI_1974_SR-22-24"><span class="mw-cite-backlink"><b><a href="#cite_ref-TI_1974_SR-22_24-0">^</a></b></span> <span class="reference-text"><cite class="citation book"><a rel="nofollow" class="external text" href="http://www.datamath.net/Manuals/SR-22_US.pdf"><i>electronic hexadecimal calculator/converter SR-22</i></a> <span style="font-size:85%;">(PDF)</span> (Revision A ed.). <a href="/wiki/Texas_Instruments_Incorporated" class="mw-redirect" title="Texas Instruments Incorporated">Texas Instruments Incorporated</a>. 1974. p.&#160;7. 1304-389 Rev A. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20170320001329/http://www.datamath.net/Manuals/SR-22_US.pdf">Archived</a> <span style="font-size:85%;">(PDF)</span> from the original on 2017-03-20<span class="reference-accessdate">. Retrieved <span class="nowrap">2017-03-20</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AScientific+notation&amp;rft.btitle=electronic+hexadecimal+calculator%2Fconverter+SR-22&amp;rft.date=1974&amp;rft.edition=Revision+A&amp;rft.genre=book&amp;rft.pages=7&amp;rft.pub=Texas+Instruments+Incorporated&amp;rft_id=http%3A%2F%2Fwww.datamath.net%2FManuals%2FSR-22_US.pdf&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span> (NB. This calculator supports floating point numbers in scientific notation in bases 8, 10 and 16.)</span></li>
+<li id="cite_note-HP16C-Lib-25"><span class="mw-cite-backlink">^ <a href="#cite_ref-HP16C-Lib_25-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-HP16C-Lib_25-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-HP16C-Lib_25-2"><sup><i><b>c</b></i></sup></a> <a href="#cite_ref-HP16C-Lib_25-3"><sup><i><b>d</b></i></sup></a> <a href="#cite_ref-HP16C-Lib_25-4"><sup><i><b>e</b></i></sup></a> <a href="#cite_ref-HP16C-Lib_25-5"><sup><i><b>f</b></i></sup></a></span> <span class="reference-text"><cite class="citation book">Schwartz, Jake; Grevelle, Rick (2003-10-20) [1993]. <a rel="nofollow" class="external text" href="http://www.pahhc.org/mul8r.htm"><i>HP16C Emulator Library for the HP48S/SX</i></a>. 1.20 (1 ed.). <a rel="nofollow" class="external text" href="https://web.archive.org/web/20160621211708/http://www.pahhc.org/mul8r.htm">Archived</a> from the original on 2016-06-21<span class="reference-accessdate">. Retrieved <span class="nowrap">2015-08-15</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AScientific+notation&amp;rft.au=Grevelle%2C+Rick&amp;rft.aufirst=Jake&amp;rft.aulast=Schwartz&amp;rft.btitle=HP16C+Emulator+Library+for+the+HP48S%2FSX&amp;rft.date=2003-10-20&amp;rft.edition=1&amp;rft.genre=book&amp;rft.series=1.20&amp;rft_id=http%3A%2F%2Fwww.pahhc.org%2Fmul8r.htm&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span> (NB. This library also works on the <a href="/wiki/HP_48G" class="mw-redirect" title="HP 48G">HP 48G</a>/<a href="/wiki/HP_48GX" class="mw-redirect" title="HP 48GX">GX</a>/<a href="/wiki/HP_48G%2B" class="mw-redirect" title="HP 48G+">G+</a>. Beyond the feature set of the <a href="/wiki/HP-16C" title="HP-16C">HP-16C</a>, this package also supports calculations for binary, octal, and hexadecimal <a href="/wiki/Floating-point_number" class="mw-redirect" title="Floating-point number">floating-point numbers</a> in scientific notation in addition to the usual decimal floating-point numbers.)</span></li>
+<li id="cite_note-Martin_1968-26"><span class="mw-cite-backlink"><b><a href="#cite_ref-Martin_1968_26-0">^</a></b></span> <span class="reference-text"><cite class="citation journal">Martin, Bruce Alan (October 1968). "Letters to the editor: On binary notation". <i><a href="/wiki/Communications_of_the_ACM" title="Communications of the ACM">Communications of the ACM</a></i>. <a href="/wiki/Associated_Universities_Inc." class="mw-redirect" title="Associated Universities Inc.">Associated Universities Inc.</a> <b>11</b> (10): 658. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="//doi.org/10.1145%2F364096.364107">10.1145/364096.364107</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AScientific+notation&amp;rft.atitle=Letters+to+the+editor%3A+On+binary+notation&amp;rft.aufirst=Bruce+Alan&amp;rft.aulast=Martin&amp;rft.date=1968-10&amp;rft.genre=article&amp;rft.issue=10&amp;rft.jtitle=Communications+of+the+ACM&amp;rft.pages=658&amp;rft.volume=11&amp;rft_id=info%3Adoi%2F10.1145%2F364096.364107&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-HP16C-Add-27"><span class="mw-cite-backlink">^ <a href="#cite_ref-HP16C-Add_27-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-HP16C-Add_27-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-HP16C-Add_27-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text"><cite class="citation book">Schwartz, Jake; Grevelle, Rick (2003-10-21). <a rel="nofollow" class="external text" href="http://www.pahhc.org/mul8r.htm"><i>HP16C Emulator Library for the HP48 - Addendum to the Operator's Manual</i></a>. 1.20 (1 ed.). <a rel="nofollow" class="external text" href="https://web.archive.org/web/20160621211708/http://www.pahhc.org/mul8r.htm">Archived</a> from the original on 2016-06-21<span class="reference-accessdate">. Retrieved <span class="nowrap">2015-08-15</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AScientific+notation&amp;rft.au=Grevelle%2C+Rick&amp;rft.aufirst=Jake&amp;rft.aulast=Schwartz&amp;rft.btitle=HP16C+Emulator+Library+for+the+HP48+-+Addendum+to+the+Operator%27s+Manual&amp;rft.date=2003-10-21&amp;rft.edition=1&amp;rft.genre=book&amp;rft.series=1.20&amp;rft_id=http%3A%2F%2Fwww.pahhc.org%2Fmul8r.htm&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-Rationale_2003_C-28"><span class="mw-cite-backlink">^ <a href="#cite_ref-Rationale_2003_C_28-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Rationale_2003_C_28-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://www.open-std.org/jtc1/sc22/wg14/www/C99RationaleV5.10.pdf">"Rationale for International Standard - Programming Languages - C"</a> <span style="font-size:85%;">(PDF)</span>. 5.10. April 2003. pp.&#160;52, 153–154, 159. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20160606072228/http://www.open-std.org/jtc1/sc22/wg14/www/C99RationaleV5.10.pdf">Archived</a> <span style="font-size:85%;">(PDF)</span> from the original on 2016-06-06<span class="reference-accessdate">. Retrieved <span class="nowrap">2010-10-17</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AScientific+notation&amp;rft.btitle=Rationale+for+International+Standard+-+Programming+Languages+-+C&amp;rft.date=2003-04&amp;rft.genre=unknown&amp;rft.pages=52%2C+153-154%2C+159&amp;rft.series=5.10&amp;rft_id=http%3A%2F%2Fwww.open-std.org%2Fjtc1%2Fsc22%2Fwg14%2Fwww%2FC99RationaleV5.10.pdf&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-printf_2013-29"><span class="mw-cite-backlink"><b><a href="#cite_ref-printf_2013_29-0">^</a></b></span> <span class="reference-text"><cite class="citation web">The IEEE and The Open Group (2013) [2001]. <a rel="nofollow" class="external text" href="http://pubs.opengroup.org/onlinepubs/9699919799/functions/printf.html">"dprintf, fprintf, printf, snprintf, sprintf - print formatted output"</a>. <i>The Open Group Base Specifications</i> (Issue 7, IEEE Std 1003.1, 2013 ed.). <a rel="nofollow" class="external text" href="https://web.archive.org/web/20160621211105/http://pubs.opengroup.org/onlinepubs/9699919799/functions/printf.html">Archived</a> from the original on 2016-06-21<span class="reference-accessdate">. Retrieved <span class="nowrap">2016-06-21</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AScientific+notation&amp;rft.atitle=dprintf%2C+fprintf%2C+printf%2C+snprintf%2C+sprintf+-+print+formatted+output&amp;rft.au=The+IEEE+and+The+Open+Group&amp;rft.date=2013&amp;rft.genre=unknown&amp;rft.jtitle=The+Open+Group+Base+Specifications&amp;rft_id=http%3A%2F%2Fpubs.opengroup.org%2Fonlinepubs%2F9699919799%2Ffunctions%2Fprintf.html&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-Beebe_2017_Hex-30"><span class="mw-cite-backlink"><b><a href="#cite_ref-Beebe_2017_Hex_30-0">^</a></b></span> <span class="reference-text"><cite class="citation book">Beebe, Nelson H. F. (2017-08-22). <a rel="nofollow" class="external text" href="https://link.springer.com/book/10.1007%2F978-3-319-64110-2"><i>The Mathematical-Function Computation Handbook - Programming Using the MathCW Portable Software Library</i></a> (1 ed.). Salt Lake City, UT, USA: <a href="/wiki/Springer_International_Publishing_AG" class="mw-redirect" title="Springer International Publishing AG">Springer International Publishing AG</a>. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-3-319-64109-6" title="Special:BookSources/978-3-319-64109-6">978-3-319-64109-6</a>. <a href="/wiki/Library_of_Congress_Control_Number" title="Library of Congress Control Number">LCCN</a>&#160;<a rel="nofollow" class="external text" href="//lccn.loc.gov/2017947446">2017947446</a>. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="//doi.org/10.1007%2F978-3-319-64110-2">10.1007/978-3-319-64110-2</a><span class="reference-accessdate">. Retrieved <span class="nowrap">2017-09-06</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AScientific+notation&amp;rft.aufirst=Nelson+H.+F.&amp;rft.aulast=Beebe&amp;rft.btitle=The+Mathematical-Function+Computation+Handbook+-+Programming+Using+the+MathCW+Portable+Software+Library&amp;rft.date=2017-08-22&amp;rft.edition=1&amp;rft.genre=book&amp;rft.isbn=978-3-319-64109-6&amp;rft.place=Salt+Lake+City%2C+UT%2C+USA&amp;rft.pub=Springer+International+Publishing+AG&amp;rft_id=https%3A%2F%2Flink.springer.com%2Fbook%2F10.1007%252F978-3-319-64110-2&amp;rft_id=info%3Adoi%2F10.1007%2F978-3-319-64110-2&amp;rft_id=info%3Alccn%2F2017947446&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-C.2B.2B17-31"><span class="mw-cite-backlink"><b><a href="#cite_ref-C.2B.2B17_31-0">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://en.cppreference.com/w/cpp/language/floating_literal">"floating point literal"</a>. <i>cppreference.com</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2017-03-11</span></span>. <q>The hexadecimal floating-point literals were not part of C++ until C++17, although they can be parsed and printed by the I/O functions since C++11: both C++ I/O streams when std::hexfloat is enabled and the C I/O streams: std::printf, std::scanf, etc. See std::strtof for the format description.</q></cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AScientific+notation&amp;rft.atitle=floating+point+literal&amp;rft.genre=unknown&amp;rft.jtitle=cppreference.com&amp;rft_id=http%3A%2F%2Fen.cppreference.com%2Fw%2Fcpp%2Flanguage%2Ffloating_literal&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-Swift_2017-32"><span class="mw-cite-backlink"><b><a href="#cite_ref-Swift_2017_32-0">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/LexicalStructure.html">"The Swift Programming Language (Swift 3.0.1)"</a>. <i>Guides and Sample Code: Developer: Language Reference</i>. <a href="/wiki/Apple_Corporation" class="mw-redirect" title="Apple Corporation">Apple Corporation</a>. Lexical Structure. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20170311124440/https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/LexicalStructure.html">Archived</a> from the original on 2017-03-11<span class="reference-accessdate">. Retrieved <span class="nowrap">2017-03-11</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AScientific+notation&amp;rft.atitle=The+Swift+Programming+Language+%28Swift+3.0.1%29&amp;rft.genre=unknown&amp;rft.jtitle=Guides+and+Sample+Code%3A+Developer%3A+Language+Reference&amp;rft.pages=Lexical+Structure&amp;rft_id=https%3A%2F%2Fdeveloper.apple.com%2Flibrary%2Fcontent%2Fdocumentation%2FSwift%2FConceptual%2FSwift_Programming_Language%2FLexicalStructure.html&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+</ol>
+</div>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Scientific_notation&amp;action=edit&amp;section=18" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<table role="presentation" class="mbox-small plainlinks sistersitebox" style="background-color:#f9f9f9;border:1px solid #aaa;color:#000">
+<tr>
+<td class="mbox-image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/99/Wiktionary-logo-en-v2.svg/40px-Wiktionary-logo-en-v2.svg.png" width="40" height="40" class="noviewer" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/99/Wiktionary-logo-en-v2.svg/60px-Wiktionary-logo-en-v2.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/99/Wiktionary-logo-en-v2.svg/80px-Wiktionary-logo-en-v2.svg.png 2x" data-file-width="391" data-file-height="391" /></td>
+<td class="mbox-text plainlist">Look up <i><b><a href="https://en.wiktionary.org/wiki/scientific_notation" class="extiw" title="wiktionary:scientific notation">scientific notation</a></b></i> in Wiktionary, the free dictionary.</td>
+</tr>
+</table>
+<ul>
+<li><a rel="nofollow" class="external text" href="http://www.miniwebtool.com/decimal-to-scientific-notation-converter/">Decimal to Scientific Notation Converter</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.miniwebtool.com/scientific-notation-to-decimal-converter/">Scientific Notation to Decimal Converter</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.math.toronto.edu/mathnet/plain/questionCorner/scinot.html">Scientific Notation in Everyday Life</a></li>
+<li><a rel="nofollow" class="external text" href="http://science.widener.edu/svb/tutorial/scinot.html">An exercise in converting to and from scientific notation</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.scientificnotationconverter.com">Scientific Notation Converter</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.ibiblio.org/kuphaldt/electricCircuits/DC/DC_4.html"><i>Scientific Notation</i></a> chapter from <a rel="nofollow" class="external text" href="http://www.ibiblio.org/kuphaldt/electricCircuits/DC/index.html"><i>Lessons In Electric Circuits Vol 1 DC</i></a> free ebook and <a rel="nofollow" class="external text" href="http://www.ibiblio.org/kuphaldt/electricCircuits/"><i>Lessons In Electric Circuits</i></a> series.</li>
+</ul>
+
+
+<!-- 
+NewPP limit report
+Parsed by mw1243
+Cached time: 20171103122945
+Cache expiry: 1900800
+Dynamic content: false
+CPU time usage: 0.452 seconds
+Real time usage: 0.581 seconds
+Preprocessor visited node count: 3212/1000000
+Preprocessor generated node count: 0/1500000
+Post‐expand include size: 91916/2097152 bytes
+Template argument size: 1905/2097152 bytes
+Highest expansion depth: 22/40
+Expensive parser function count: 0/500
+Lua time usage: 0.226/10.000 seconds
+Lua memory usage: 7.38 MB/50 MB
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  431.372      1 -total
+ 48.50%  209.201      1 Template:Reflist
+ 22.33%   96.343     40 Template:Val
+ 12.38%   53.397     12 Template:Cite_book
+  9.10%   39.235      9 Template:Cite_web
+  8.42%   36.331      2 Template:Citation
+  5.95%   25.674      1 Template:Unichar
+  5.54%   23.916      5 Template:Cite_journal
+  5.17%   22.303      1 Template:Unichar/main
+  4.55%   19.606      1 Template:About
+-->
+</div>
+<!-- Saved in parser cache with key enwiki:pcache:idhash:59715-0!canonical!math=5 and timestamp 20171103122944 and revision id 807305414
+ -->
+<noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Scientific_notation&amp;oldid=807305414#E-notation">https://en.wikipedia.org/w/index.php?title=Scientific_notation&amp;oldid=807305414#E-notation</a>"					</div>
+				<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Numeral_systems" title="Category:Numeral systems">Numeral systems</a></li><li><a href="/wiki/Category:Measurement" title="Category:Measurement">Measurement</a></li><li><a href="/wiki/Category:Notation" title="Category:Notation">Notation</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:CS1_German-language_sources_(de)" title="Category:CS1 German-language sources (de)">CS1 German-language sources (de)</a></li><li><a href="/wiki/Category:CS1_Japanese-language_sources_(ja)" title="Category:CS1 Japanese-language sources (ja)">CS1 Japanese-language sources (ja)</a></li></ul></div></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n">Talk</a></li><li id="pt-anoncontribs"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Scientific+notation" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Scientific+notation" title="You're encouraged to log in; however, it's not mandatory. [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+														<li id="ca-nstab-main" class="selected"><span><a href="/wiki/Scientific_notation" title="View the content page [c]" accesskey="c">Article</a></span></li>
+							<li id="ca-talk"><span><a href="/wiki/Talk:Scientific_notation" rel="discussion" title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+						</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label">
+							<span>Variants</span>
+						</h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+														<li id="ca-view" class="collapsible selected"><span><a href="/wiki/Scientific_notation">Read</a></span></li>
+							<li id="ca-edit" class="collapsible"><span><a href="/w/index.php?title=Scientific_notation&amp;action=edit" title="Edit this page [e]" accesskey="e">Edit</a></span></li>
+							<li id="ca-history" class="collapsible"><span><a href="/w/index.php?title=Scientific_notation&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+						</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="/w/index.php" id="searchform">
+							<div id="simpleSearch">
+							<input type="search" name="search" placeholder="Search Wikipedia" title="Search Wikipedia [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Special:Search" name="title"/><input type="submit" name="fulltext" value="Search" title="Search Wikipedia for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+			<h3 id='p-navigation-label'>Navigation</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-mainpage-description"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a href="/wiki/Special:Random" title="Load a random article [x]" accesskey="x">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-interaction' aria-labelledby='p-interaction-label'>
+			<h3 id='p-interaction-label'>Interaction</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Tools</h3>
+
+			<div class="body">
+									<ul>
+						<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/Scientific_notation" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/Scientific_notation" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-upload"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li><li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Scientific_notation&amp;oldid=807305414" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Scientific_notation&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q219142" title="Link to connected data repository item [g]" accesskey="g">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Scientific_notation&amp;id=807305414" title="Information on how to cite this page">Cite this page</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-coll-print_export' aria-labelledby='p-coll-print_export-label'>
+			<h3 id='p-coll-print_export-label'>Print/export</h3>
+
+			<div class="body">
+									<ul>
+						<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Scientific+notation">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:ElectronPdf&amp;page=Scientific+notation&amp;action=show-download-screen">Download as PDF</a></li><li id="t-print"><a href="/w/index.php?title=Scientific_notation&amp;printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-wikibase-otherprojects' aria-labelledby='p-wikibase-otherprojects-label'>
+			<h3 id='p-wikibase-otherprojects-label'>In other projects</h3>
+
+			<div class="body">
+									<ul>
+						<li class="wb-otherproject-link wb-otherproject-wikibooks"><a href="https://en.wikibooks.org/wiki/A_Guide_to_the_GRE/Scientific_Notation" hreflang="en">Wikibooks</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-lang' aria-labelledby='p-lang-label'>
+			<h3 id='p-lang-label'>Languages</h3>
+
+			<div class="body">
+									<ul>
+						<li class="interlanguage-link interwiki-af"><a href="https://af.wikipedia.org/wiki/Wetenskaplike_notasie" title="Wetenskaplike notasie – Afrikaans" lang="af" hreflang="af" class="interlanguage-link-target">Afrikaans</a></li><li class="interlanguage-link interwiki-ar"><a href="https://ar.wikipedia.org/wiki/%D9%83%D8%AA%D8%A7%D8%A8%D8%A9_%D8%B9%D9%84%D9%85%D9%8A%D8%A9" title="كتابة علمية – Arabic" lang="ar" hreflang="ar" class="interlanguage-link-target">العربية</a></li><li class="interlanguage-link interwiki-bg"><a href="https://bg.wikipedia.org/wiki/%D0%95%D0%BA%D1%81%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%86%D0%B8%D0%B0%D0%BB%D0%B5%D0%BD_%D0%B7%D0%B0%D0%BF%D0%B8%D1%81" title="Експоненциален запис – Bulgarian" lang="bg" hreflang="bg" class="interlanguage-link-target">Български</a></li><li class="interlanguage-link interwiki-ca"><a href="https://ca.wikipedia.org/wiki/Notaci%C3%B3_cient%C3%ADfica" title="Notació científica – Catalan" lang="ca" hreflang="ca" class="interlanguage-link-target">Català</a></li><li class="interlanguage-link interwiki-cs"><a href="https://cs.wikipedia.org/wiki/V%C4%9Bdeck%C3%BD_z%C3%A1pis_%C4%8D%C3%ADsel" title="Vědecký zápis čísel – Czech" lang="cs" hreflang="cs" class="interlanguage-link-target">Čeština</a></li><li class="interlanguage-link interwiki-da"><a href="https://da.wikipedia.org/wiki/Videnskabelig_notation" title="Videnskabelig notation – Danish" lang="da" hreflang="da" class="interlanguage-link-target">Dansk</a></li><li class="interlanguage-link interwiki-de"><a href="https://de.wikipedia.org/wiki/Wissenschaftliche_Notation" title="Wissenschaftliche Notation – German" lang="de" hreflang="de" class="interlanguage-link-target">Deutsch</a></li><li class="interlanguage-link interwiki-et"><a href="https://et.wikipedia.org/wiki/Arvu_standardkuju" title="Arvu standardkuju – Estonian" lang="et" hreflang="et" class="interlanguage-link-target">Eesti</a></li><li class="interlanguage-link interwiki-el"><a href="https://el.wikipedia.org/wiki/%CE%95%CF%80%CE%B9%CF%83%CF%84%CE%B7%CE%BC%CE%BF%CE%BD%CE%B9%CE%BA%CE%AE_%CF%83%CE%B7%CE%BC%CE%B5%CE%B9%CE%BF%CE%B3%CF%81%CE%B1%CF%86%CE%AF%CE%B1" title="Επιστημονική σημειογραφία – Greek" lang="el" hreflang="el" class="interlanguage-link-target">Ελληνικά</a></li><li class="interlanguage-link interwiki-es"><a href="https://es.wikipedia.org/wiki/Notaci%C3%B3n_cient%C3%ADfica" title="Notación científica – Spanish" lang="es" hreflang="es" class="interlanguage-link-target">Español</a></li><li class="interlanguage-link interwiki-eu"><a href="https://eu.wikipedia.org/wiki/Notazio_zientifiko" title="Notazio zientifiko – Basque" lang="eu" hreflang="eu" class="interlanguage-link-target">Euskara</a></li><li class="interlanguage-link interwiki-fa"><a href="https://fa.wikipedia.org/wiki/%D9%86%D9%85%D8%A7%D8%AF_%D8%B9%D9%84%D9%85%DB%8C" title="نماد علمی – Persian" lang="fa" hreflang="fa" class="interlanguage-link-target">فارسی</a></li><li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/Notation_scientifique" title="Notation scientifique – French" lang="fr" hreflang="fr" class="interlanguage-link-target">Français</a></li><li class="interlanguage-link interwiki-id"><a href="https://id.wikipedia.org/wiki/Notasi_ilmiah" title="Notasi ilmiah – Indonesian" lang="id" hreflang="id" class="interlanguage-link-target">Bahasa Indonesia</a></li><li class="interlanguage-link interwiki-is"><a href="https://is.wikipedia.org/wiki/Sta%C3%B0alform" title="Staðalform – Icelandic" lang="is" hreflang="is" class="interlanguage-link-target">Íslenska</a></li><li class="interlanguage-link interwiki-it"><a href="https://it.wikipedia.org/wiki/Notazione_scientifica" title="Notazione scientifica – Italian" lang="it" hreflang="it" class="interlanguage-link-target">Italiano</a></li><li class="interlanguage-link interwiki-he"><a href="https://he.wikipedia.org/wiki/%D7%9B%D7%AA%D7%99%D7%91_%D7%9E%D7%93%D7%A2%D7%99" title="כתיב מדעי – Hebrew" lang="he" hreflang="he" class="interlanguage-link-target">עברית</a></li><li class="interlanguage-link interwiki-ht"><a href="https://ht.wikipedia.org/wiki/Notasyon_syantifik" title="Notasyon syantifik – Haitian Creole" lang="ht" hreflang="ht" class="interlanguage-link-target">Kreyòl ayisyen</a></li><li class="interlanguage-link interwiki-lv"><a href="https://lv.wikipedia.org/wiki/Zin%C4%81tniskais_pieraksts" title="Zinātniskais pieraksts – Latvian" lang="lv" hreflang="lv" class="interlanguage-link-target">Latviešu</a></li><li class="interlanguage-link interwiki-lt"><a href="https://lt.wikipedia.org/wiki/Standartin%C4%97_skai%C4%8Diaus_i%C5%A1rai%C5%A1ka" title="Standartinė skaičiaus išraiška – Lithuanian" lang="lt" hreflang="lt" class="interlanguage-link-target">Lietuvių</a></li><li class="interlanguage-link interwiki-hu"><a href="https://hu.wikipedia.org/wiki/Norm%C3%A1lalak" title="Normálalak – Hungarian" lang="hu" hreflang="hu" class="interlanguage-link-target">Magyar</a></li><li class="interlanguage-link interwiki-nl"><a href="https://nl.wikipedia.org/wiki/Wetenschappelijke_notatie" title="Wetenschappelijke notatie – Dutch" lang="nl" hreflang="nl" class="interlanguage-link-target">Nederlands</a></li><li class="interlanguage-link interwiki-ja"><a href="https://ja.wikipedia.org/wiki/%E6%8C%87%E6%95%B0%E8%A1%A8%E8%A8%98" title="指数表記 – Japanese" lang="ja" hreflang="ja" class="interlanguage-link-target">日本語</a></li><li class="interlanguage-link interwiki-no"><a href="https://no.wikipedia.org/wiki/Vitenskapelig_notasjon" title="Vitenskapelig notasjon – Norwegian" lang="no" hreflang="no" class="interlanguage-link-target">Norsk</a></li><li class="interlanguage-link interwiki-pl"><a href="https://pl.wikipedia.org/wiki/Notacja_naukowa" title="Notacja naukowa – Polish" lang="pl" hreflang="pl" class="interlanguage-link-target">Polski</a></li><li class="interlanguage-link interwiki-pt badge-Q17437798 badge-goodarticle" title="good article"><a href="https://pt.wikipedia.org/wiki/Nota%C3%A7%C3%A3o_cient%C3%ADfica" title="Notação científica – Portuguese" lang="pt" hreflang="pt" class="interlanguage-link-target">Português</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/%D0%AD%D0%BA%D1%81%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D1%8C" title="Экспоненциальная запись – Russian" lang="ru" hreflang="ru" class="interlanguage-link-target">Русский</a></li><li class="interlanguage-link interwiki-si"><a href="https://si.wikipedia.org/wiki/%E0%B7%80%E0%B7%92%E0%B6%AF%E0%B7%8A%E2%80%8D%E0%B6%BA%E0%B7%8F%E0%B6%AD%E0%B7%8A%E0%B6%B8%E0%B6%9A_%E0%B6%85%E0%B6%82%E0%B6%9A%E0%B6%B1%E0%B6%BA" title="විද්‍යාත්මක අංකනය – Sinhala" lang="si" hreflang="si" class="interlanguage-link-target">සිංහල</a></li><li class="interlanguage-link interwiki-simple"><a href="https://simple.wikipedia.org/wiki/Scientific_notation" title="Scientific notation – Simple English" lang="simple" hreflang="simple" class="interlanguage-link-target">Simple English</a></li><li class="interlanguage-link interwiki-sl"><a href="https://sl.wikipedia.org/wiki/Znanstveni_zapis" title="Znanstveni zapis – Slovenian" lang="sl" hreflang="sl" class="interlanguage-link-target">Slovenščina</a></li><li class="interlanguage-link interwiki-so"><a href="https://so.wikipedia.org/wiki/Qormo_saynis" title="Qormo saynis – Somali" lang="so" hreflang="so" class="interlanguage-link-target">Soomaaliga</a></li><li class="interlanguage-link interwiki-fi"><a href="https://fi.wikipedia.org/wiki/Kymmenpotenssimuoto" title="Kymmenpotenssimuoto – Finnish" lang="fi" hreflang="fi" class="interlanguage-link-target">Suomi</a></li><li class="interlanguage-link interwiki-sv"><a href="https://sv.wikipedia.org/wiki/Grundpotensform" title="Grundpotensform – Swedish" lang="sv" hreflang="sv" class="interlanguage-link-target">Svenska</a></li><li class="interlanguage-link interwiki-ta"><a href="https://ta.wikipedia.org/wiki/%E0%AE%85%E0%AE%B1%E0%AE%BF%E0%AE%B5%E0%AE%BF%E0%AE%AF%E0%AE%B2%E0%AF%8D_%E0%AE%95%E0%AF%81%E0%AE%B1%E0%AE%BF%E0%AE%AF%E0%AF%80%E0%AE%9F%E0%AF%81" title="அறிவியல் குறியீடு – Tamil" lang="ta" hreflang="ta" class="interlanguage-link-target">தமிழ்</a></li><li class="interlanguage-link interwiki-th"><a href="https://th.wikipedia.org/wiki/%E0%B8%AA%E0%B8%B1%E0%B8%8D%E0%B8%81%E0%B8%A3%E0%B8%93%E0%B9%8C%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C" title="สัญกรณ์วิทยาศาสตร์ – Thai" lang="th" hreflang="th" class="interlanguage-link-target">ไทย</a></li><li class="interlanguage-link interwiki-tr"><a href="https://tr.wikipedia.org/wiki/Bilimsel_g%C3%B6sterim" title="Bilimsel gösterim – Turkish" lang="tr" hreflang="tr" class="interlanguage-link-target">Türkçe</a></li><li class="interlanguage-link interwiki-uk"><a href="https://uk.wikipedia.org/wiki/%D0%95%D0%BA%D1%81%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%86%D1%96%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9_%D0%B7%D0%B0%D0%BF%D0%B8%D1%81" title="Експоненціальний запис – Ukrainian" lang="uk" hreflang="uk" class="interlanguage-link-target">Українська</a></li><li class="interlanguage-link interwiki-zh"><a href="https://zh.wikipedia.org/wiki/%E7%A7%91%E5%AD%A6%E8%AE%B0%E6%95%B0%E6%B3%95" title="科学记数法 – Chinese" lang="zh" hreflang="zh" class="interlanguage-link-target">中文</a></li>					</ul>
+				<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q219142#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>			</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last edited on 27 October 2017, at 04:21.</li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="https://wikimediafoundation.org/wiki/Privacy_policy" class="extiw" title="wmf:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+											<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+											<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Cookie statement</a></li>
+											<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=Scientific_notation&amp;mobileaction=toggle_view_mobile#E-notation" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-copyrightico">
+							<a href="https://wikimediafoundation.org/"><img src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation"/></a>						</li>
+											<li id="footer-poweredbyico">
+							<a href="//www.mediawiki.org/"><img src="/static/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a>						</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.452","walltime":"0.581","ppvisitednodes":{"value":3212,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":91916,"limit":2097152},"templateargumentsize":{"value":1905,"limit":2097152},"expansiondepth":{"value":22,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  431.372      1 -total"," 48.50%  209.201      1 Template:Reflist"," 22.33%   96.343     40 Template:Val"," 12.38%   53.397     12 Template:Cite_book","  9.10%   39.235      9 Template:Cite_web","  8.42%   36.331      2 Template:Citation","  5.95%   25.674      1 Template:Unichar","  5.54%   23.916      5 Template:Cite_journal","  5.17%   22.303      1 Template:Unichar/main","  4.55%   19.606      1 Template:About"]},"scribunto":{"limitreport-timeusage":{"value":"0.226","limit":"10.000"},"limitreport-memusage":{"value":7740057,"limit":52428800}},"cachereport":{"origin":"mw1243","timestamp":"20171103122945","ttl":1900800,"transientcontent":false}}});});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":94,"wgHostname":"mw1262"});});</script>
+	</body>
+</html>
